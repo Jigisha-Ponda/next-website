@@ -127,6 +127,10 @@
     }
 }
 
+.bg-heroBg{
+    background-color: var(--color-hero-bg);
+}
+
 .blog-details p, .blog-details hr {
     @apply mb-8;
 }
