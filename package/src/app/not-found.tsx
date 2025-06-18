@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const ErrorPage = () => {
   const breadcrumbLinks = [
     { href: "/", text: "Home" },
-    // { href: "/contact", text: "404" },
+    { href: "/contact", text: "404" },
   ];
   return (
     <>
@@ -18,7 +18,7 @@ const ErrorPage = () => {
         description="We Can't Seem to Find The Page You're Looking For"
         breadcrumbLinks={breadcrumbLinks}
       />
-      {/* <NotFound /> */}
+      <NotFound />
     </>
   );
 };
