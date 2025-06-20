@@ -79,7 +79,7 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) flex justify-between lg:items-center xl:gap-16 lg:gap-8 px-4 py-6">
         <Logo />
-        <nav className="hidden lg:flex grow items-center xl:justify-start justify-center space-x-10 text-17 text-midnight_text">
+        <nav className="hidden lg:flex grow items-center xl:justify-center justify-center space-x-10 text-17 text-midnight_text">
           {headerData.map((item, index) => (
             <HeaderLink key={index} item={item} />
           ))}

@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="flex items-center text-foottext text-16">
               <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
               <div className="flex flex-col">
-                <span>221b Baker St, London NW1 6XE,</span>
-                <span>United Kingdom</span>
+                <span>Rajkot</span>
+                {/* <span>United Kingdom</span> */}
               </div>
             </div>
             <div className="flex items-center gap-2 text-foottext">
@@ -28,7 +28,7 @@ const Footer = () => {
                 href="#"
                 className="inline-flex items-center text-16 hover:text-primary"
               >
-                <span>info@mobileapp.com</span>
+                <span>info@softway.com</span>
               </Link>
             </div>
           </div>
@@ -36,9 +36,9 @@ const Footer = () => {
             <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fe:facebook" width="32" height="32" />
             </Link>
-            <Link href="#" className="text-muted hover:text-primary">
+            {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:square-twitter" width="32" height="32" />
-            </Link>
+            </Link> */}
             <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:linkedin" width="32" height="32" />
             </Link>
@@ -116,7 +116,7 @@ const Footer = () => {
                 />
               </div>
             </form>
-            <p className="text-18 text-white font-bold py-12">Get App</p>
+            {/* <p className="text-18 text-white font-bold py-12">Get App</p>
             <div className="flex">
               <a href="">
                 <Image
@@ -136,7 +136,7 @@ const Footer = () => {
                   className="w-auto h-auto"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex items-center sm:flex-row flex-col justify-between py-10 mt-8">

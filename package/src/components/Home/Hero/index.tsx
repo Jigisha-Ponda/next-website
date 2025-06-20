@@ -26,18 +26,17 @@ const Hero = () => {
         <div className="grid grid-cols-12 items-center">
           <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
             <h1 className="md:text-50 sm:text-40 text-28 text-midnight_text lg:text-start mb-9 lg:w-full w-3/4">
-              Quickest and easiest
+              Custom Website &
               <br />
               <span className="bg-border dark:bg-darkHeroBg  md:text-50 text-36 rounded-lg lg:text-start text-primary max-w-max">
-                online payment
+                 eCommerce Solutions
               </span>
               <br />
-              platform for your product.
+              That Power Your Business
             </h1>
             <p className="sm:text-19 text-16 text-muted dark:text-white dark:text-opacity-70 text-start lg:max-w-full sm:max-w-75%">
-              Embed powerful financial features into your product, Build in
-              minutes, launch in weeks.
-            </p>
+            We craft high-performance websites and eCommerce platforms using React, Next.js, and Angular—designed to boost engagement, streamline user experience, and drive conversions.
+           </p>
             <div className="flex items-center mt-12 gap-11">
               <div>
                 <Link
@@ -67,7 +66,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="lg:my-28 my-12">
+            {/* <div className="lg:my-28 my-12">
               <p className="text-20 text-muted dark:text-white dark:text-opacity-70 text-start mb-7">
                 Trusted by
               </p>
@@ -93,7 +92,7 @@ const Hero = () => {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </motion.div>
           <motion.div
             {...rightAnimation}

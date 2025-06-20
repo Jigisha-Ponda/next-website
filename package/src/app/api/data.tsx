@@ -20,56 +20,56 @@ export const Heroimage = [
   },
 ];
 
-// payment
-export const PaymentImage = [
+// Our Expertise
+export const ourExpertise = [
   {
     image: "/images/payment/user.svg",
-    title: "Create an account",
+    title: "Modern Web Development",
     details:
-      "Mobile app made easy check out across the web and in apps without having to enter any payment information.",
+      "We build fast, SEO-optimized websites and eCommerce platforms using React, Next.js, and Angular.",
   },
   {
     image: "/images/payment/user.svg",
-    title: "Verify your identity",
+    title: "Pixel-Perfect Frontend Implementation",
     details:
-      "Mobile app made easy check out across the web and in apps without having to enter any payment information.",
+      "We turn UI designs into responsive, high-quality interfaces using clean HTML, CSS, and JavaScript.",
   },
   {
     image: "/images/payment/user.svg",
-    title: "Link your bank account",
+    title: "Scalable & Conversion-Focused Solutions",
     details:
-      "Mobile app made easy check out across the web and in apps without having to enter any payment information.",
+      "Our code structure ensures your website grows with your business—designed to boost engagement and sales.",
   },
 ];
 
-// Beneifit
-export const BeneifitImage = [
+// Solutions
+export const Solutions = [
   {
     image: "/images/benefit/pic.svg",
     alt: "Trusted brand",
     details:
-      "Stop wasteful spend and save thousands with unlimited points and insights that maximize savings.",
+      "Custom Development with Modern Frameworks",
   },
   {
     image: "/images/benefit/contact.svg",
     alt: "Trusted brand",
-    details: "See where the company money is going in real time.",
+    details: "Scalable eCommerce Solutions",
   },
   {
     image: "/images/benefit/bank.svg",
     alt: "Trusted brand",
-    details: "Powered by the free app that helps you run your whole business.",
+    details: "Mobile-optimized, lightning-fast performance",
   },
   {
     image: "/images/benefit/files.svg",
     alt: "Trusted brand",
-    details: "No more lost receipts and tedious paperwork.",
+    details: "Mobile-First & SEO-Ready",
   },
   {
     image: "/images/benefit/setting.svg",
     alt: "Trusted brand",
     details:
-      "It's an all-digital card designed for online, and even in-store shopping.",
+      "Ongoing Support & Maintenance",
   },
 ];
 
@@ -131,14 +131,21 @@ export const footerLinks: { link: string }[] = [
 // Perks
 export const perks = [
   {
-    text: "When you pay with a debit or credit card, Mobile App doesn't keep transaction information that can be tied back to you.",
+    name:"Integrated Payments & Checkout",
+    text: "Connect with leading payment gateways for secure, user-friendly transactions.",
   },
   {
-    text: "Digital wallets are becoming more popular than ever before.",
+    name:"Shipping & Logistics Support",
+    text: "Automate deliveries with integrations like Shiprocket, Delhivery, and more.",
   },
   {
-    text: "You can also add your student ID card to Wallet to access places like your dorm and the library.",
+    name:"Marketing & CRM Tools",
+    text: "Sync your site with Mailchimp, HubSpot, or WhatsApp to manage leads and boost conversions.",
   },
+  {
+    name:"Inventory & Order Sync",
+    text:"Keep product stock and orders in sync across your store and backend systems."
+  }
 ];
 
 // review

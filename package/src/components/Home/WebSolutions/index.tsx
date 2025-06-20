@@ -4,9 +4,9 @@ import Image from "next/image";
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
 import { Icon } from "@iconify/react";
-import { BeneifitImage } from "@/app/api/data";
+import { Solutions } from "@/app/api/data";
 
-const Benefit = () => {
+const WebSolutions = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
 
@@ -37,12 +37,12 @@ const Benefit = () => {
         >
           <motion.div {...TopAnimation} className="items-start">
             <h2 className="font-bold md:text-35 sm:text-28 text-24 text-midnight_text dark:text-white">
-              How will
+              Smart
               <span className="bg-border dark:bg-darkHeroBg rounded-lg text-primary max-w-max ml-2">
-                online payment
+                Web Solutions,
               </span>
               <br />
-              platform benefit your product.
+              Tailored for Your Business
             </h2>
           </motion.div>
           <div className="grid grid-cols-12 items-center mt-16 md:gap-12 sm:gap-8">
@@ -65,10 +65,9 @@ const Benefit = () => {
               className="xl:col-span-6 col-span-12"
             >
               <p className="sm:text-25 text-18 text-midnight_text font-medium dark:text-white">
-                Grow revenues and delight your customers by building financial
-                features.
+              We use modern technologies to craft high-performance websites and eCommerce platforms that meet real business goals.
               </p>
-              {BeneifitImage.map((item, index) => (
+              {Solutions.map((item, index) => (
                 <div key={index} className="sm:flex items-center mt-8">
                   <Image
                     src={item.image}
@@ -103,4 +102,4 @@ const Benefit = () => {
   );
 };
 
-export default Benefit;
+export default WebSolutions;

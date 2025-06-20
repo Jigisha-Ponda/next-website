@@ -1,7 +1,7 @@
 "use client";
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
-import { PaymentImage } from "@/app/api/data";
+import { ourExpertise } from "@/app/api/data";
 import Image from "next/image";
 
 const Payment = () => {
@@ -20,12 +20,14 @@ const Payment = () => {
     transition: { duration: 1, delay: 0.4 + index * 0.4 },
   });
 
-  const paymentItems = [
-    "Cards",
-    "Expenses",
-    "Bill Pay",
-    "Accounting",
-    "Reporting",
+  const languages = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "JQuery",
+    "Angular",
+    "React.js",
+    "Next.js",
   ];
 
   return (
@@ -37,17 +39,16 @@ const Payment = () => {
         <motion.div {...TopAnimation}>
           <div className="px-4 lg:px-12">
             <h2 className="text-center font-semibold md:text-35 sm:text-28 text-24 mb-8 text-midnight_text dark:text-white lg:mx-44">
-              Easy and affordable for your personal and
-              <span className="text-primary"> business payment </span>
-              needs.
+              Our
+              <span className="text-primary"> Expertise</span>
             </h2>
           </div>
           <div className="flex flex-wrap justify-center gap-10">
-            {paymentItems.map((item, index) => (
+            {languages.map((item, index) => (
               <p
                 key={index}
                 className={`text-muted dark:text-white dark:text-opacity-70 md:text-18 text-base font-medium relative ${
-                  index !== paymentItems.length - 1
+                  index !== languages.length - 1
                     ? "after:content-[''] after:absolute after:w-0.5 after:h-3/4 after:bg-muted after:rounded-full after:-right-5 after:top-0.5"
                     : ""
                 }`}
@@ -60,7 +61,7 @@ const Payment = () => {
 
         <div className="flex justify-start sm:mt-20 mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-14 gap-8">
-            {PaymentImage.map((item, index) => (
+            {ourExpertise.map((item, index) => (
               <div key={index}>
                 <motion.div {...bottomAnimation(index)}>
                   <div className="rounded-full">

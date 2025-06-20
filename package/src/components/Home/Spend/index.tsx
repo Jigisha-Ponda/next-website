@@ -47,12 +47,11 @@ const Spend: FC = () => {
         <div ref={ref}>
           <motion.div {...TopAnimation} className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white">
-              The best way to
-              <span className="text-primary ml-2">spend and save</span>
+              Smart Solutions for 
+              <span className="text-primary ml-2">Growing Brands</span>
             </h2>
             <p className="text-17 text-muted dark:text-white dark:text-opacity-70 lg:font-medium mx-1 lg:mx-64 mb-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We build high-performance websites and custom eCommerce platforms using React, Next.js, and Angular—helping you scale faster, sell smarter, and stand out online.
             </p>
           </motion.div>
           <motion.div {...bottomAnimation} className="flex justify-center items-center">

@@ -1,6 +1,6 @@
 import HeroSub from "@/components/SharedComponents/HeroSub";
 import Payment from "@/components/Home/Payment";
-import Benefit from "@/components/Home/Benefit";
+import Benefit from "@/components/Home/WebSolutions";
 import Spend from "@/components/Home/Spend";
 import { Metadata } from "next";
 export const metadata: Metadata = {

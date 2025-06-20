@@ -41,14 +41,13 @@ const Method = () => {
         >
           <motion.div {...TopAnimation} className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white lg:max-w-full sm:max-w-75% mx-auto">
-              Many ways to manage your
+              Turning Your 
               <span className="text-primary max-w-max ml-2">
-                online payment
+              Vision into Scalable Digital Solutions
               </span>
             </h2>
             <p className="font-medium xl:max-w-45% lg:max-w-50% md:max-w-75% text-17 mx-auto text-muted dark:text-white dark:text-opacity-70">
-              Embed powerful financial features into your product, Build in
-              minutes, launch in weeks.
+            We follow a clear, collaborative process to ensure every solution we deliver is tailored, pixel-perfect, and business-ready. From initial consultation to post-launch support, we’re with you at every step.
             </p>
           </motion.div>
           <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-11">
@@ -57,11 +56,10 @@ const Method = () => {
                 <div className="grid xl:grid-cols-2 xl:gap-10">
                   <div className="xl:py-14 py-8 xl:pl-9 px-9">
                     <h3 className="md:text-25 text-20 font-medium text-midnight_text dark:text-white mb-6">
-                      Physical & Virtual Cards
+                    Discover & Plan
                     </h3>
                     <p className="text-muted dark:text-white dark:text-opacity-70 md:text-18 text-16 md:mb-14 mb-8">
-                      Fully programmable, debit - credit physical & virtual
-                      cards for individuals and businesses.
+                    We understand your goals and define a clear project roadmap.
                     </p>
                     <Link
                       href="#"
@@ -94,11 +92,10 @@ const Method = () => {
               >
                 <div className="flex-1 pl-8 py-5">
                   <h3 className="md:text-25 text-20 font-medium text-midnight_text dark:text-white mb-6">
-                    Banking
+                  Design with Purpose
                   </h3>
                   <p className="text-muted dark:text-white dark:text-opacity-70 md:text-18 text-16 md:mb-14 mb-8">
-                    Fully programmable, debit credit physical & virtual cards
-                    for individuals and businesses.
+                  Developing modern, user-friendly interfaces from your design files.
                   </p>
                   <Link
                     href="#"
@@ -128,11 +125,10 @@ const Method = () => {
               >
                 <div className="flex-1 pl-8 py-5">
                   <h3 className="md:text-25 text-20 font-medium text-midnight_text dark:text-white mb-6">
-                    Payments
+                  Build with Precision
                   </h3>
                   <p className="text-muted dark:text-white dark:text-opacity-70 md:text-18 text-16 md:mb-14 mb-8">
-                    Fully programmable, debit credit physical & virtual cards
-                    for individuals and businesses.
+                  Developing fast, scalable apps using React, Next.js, Angular & Odoo POS.
                   </p>
                   <Link
                     href="#"
@@ -173,11 +169,10 @@ const Method = () => {
                 </div>
                 <div className="flex-1 px-9 flex justify-center flex-col py-9">
                   <h3 className="md:text-25 text-20 font-medium text-midnight_text dark:text-white mb-6">
-                    Access $175,000 in partner rewards
+                  Launch & Support
                   </h3>
                   <p className="text-muted dark:text-white dark:text-opacity-70 md:text-18 text-16 md:mb-14 mb-8">
-                    Fully programmable, debit credit physical & virtual cards
-                    for individuals and businesses.
+                  Deploying smoothly and ensuring ongoing performance and updates.
                   </p>
                   <Link
                     href="#"

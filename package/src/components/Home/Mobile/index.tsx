@@ -27,15 +27,14 @@ const Mobile = () => {
         <div ref={ref} className="grid md:grid-cols-12 items-center lg:gap-12 gap-6">
           <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
             <h2 className="lg:text-35 text-24 text-midnight_text font-semibold dark:text-white">
-              Mobile wallets made for
+              Seamless Integration,
               <br />
               <span className="lg:text-35 text-24 text-primary font-semibold lg:max-w-max">
-                any situation
+                Smooth Experience
               </span>
             </h2>
             <p className="mt-6 text-muted dark:text-white dark:text-opacity-70 lg:text-17 lg:max-w-full max-w-75%">
-              Cards issued through us can easily be added to mobile wallets to
-              be used to buy online, in store, and in-app.
+              We build websites and eCommerce platforms that work flawlessly with the tools you already use—so everything runs like clockwork.
             </p>
             <div className="flex flex-col gap-6 mt-16">
               {perks.map((item, index) => (
@@ -49,6 +48,9 @@ const Mobile = () => {
                     />
                   </div>
                   <p className="text-base text-muted dark:text-white dark:text-opacity-70">
+                    <span className="font-semibold text-base text-black dark:text-white">
+                      {item.name}:
+                    </span>{" "}
                     {item.text}
                   </p>
                 </div>

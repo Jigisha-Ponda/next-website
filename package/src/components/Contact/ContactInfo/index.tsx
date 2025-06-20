@@ -17,8 +17,7 @@ const ContactInfo = () => {
                     Email US
                   </span>
                   <p className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    Please feel free to drop us a line. We will respond as soon as
-                    possible.
+                    Feel free to contact us at info@softway.com we’ll respond promptly
                   </p>
                 </div>
                 <div>
@@ -47,14 +46,13 @@ const ContactInfo = () => {
               <div className="flex md:flex-col sm:flex-row flex-col md:items-start sm:items-center items-start h-full justify-between">
                 <div>
                   <span className="text-midnight_text dark:text-white text-xl font-bold">
-                    Careers
+                    Address
                   </span>
                   <p className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    Sit ac ipsum leo lorem magna nunc mattis maecenas non
-                    vestibulum
+                    Rajkot, Gujarat
                   </p>
                 </div>
-                <div>
+                {/* <div>
                   <Link href="#" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
                     Send an application
                     <svg
@@ -70,7 +68,7 @@ const ContactInfo = () => {
                       />
                     </svg>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
