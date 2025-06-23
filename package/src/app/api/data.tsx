@@ -42,7 +42,7 @@ export const ourExpertise = [
   },
 ];
 
-// Our Mission, Vision & Core values
+// Our Mission & Vision
 export const missionVisionValues = [
   {
     image: "/images/payment/user.svg",

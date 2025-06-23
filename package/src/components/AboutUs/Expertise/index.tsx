@@ -32,7 +32,7 @@ const MissionVisionValues = () => {
           <div className="px-4 lg:px-12">
             <h2 className="text-center font-semibold md:text-35 sm:text-28 text-24 mb-8 text-midnight_text dark:text-white lg:mx-44">
               Our
-              <span className="text-primary"> Mission, Vision & Core Values</span>
+              <span className="text-primary"> Mission & Vision</span>
             </h2>
           </div>
         </motion.div>
