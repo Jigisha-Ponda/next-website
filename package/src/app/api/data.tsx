@@ -42,6 +42,22 @@ export const ourExpertise = [
   },
 ];
 
+// Our Mission, Vision & Core values
+export const missionVisionValues = [
+  {
+    image: "/images/payment/user.svg",
+    title: "Our Mission",
+    details:
+      "To deliver innovative and scalable software solutions that empower businesses to achieve digital transformation. We aim to bridge the gap between technology and user needs by building products that are intuitive, efficient, and result-driven.",
+  },
+  {
+    image: "/images/payment/user.svg",
+    title: "Our Vision",
+    details:
+      "To become a globally trusted technology partner for startups and enterprises by consistently delivering excellence in software development and digital experiences. We envision a future where technology simplifies lives and accelerates business growth.",
+  },
+];
+
 // Solutions
 export const Solutions = [
   {
@@ -131,20 +147,44 @@ export const footerLinks: { link: string }[] = [
 // Perks
 export const perks = [
   {
-    name:"Integrated Payments & Checkout",
+    name: "Integrated Payments & Checkout",
     text: "Connect with leading payment gateways for secure, user-friendly transactions.",
   },
   {
-    name:"Shipping & Logistics Support",
+    name: "Shipping & Logistics Support",
     text: "Automate deliveries with integrations like Shiprocket, Delhivery, and more.",
   },
   {
-    name:"Marketing & CRM Tools",
+    name: "Marketing & CRM Tools",
     text: "Sync your site with Mailchimp, HubSpot, or WhatsApp to manage leads and boost conversions.",
   },
   {
-    name:"Inventory & Order Sync",
-    text:"Keep product stock and orders in sync across your store and backend systems."
+    name: "Inventory & Order Sync",
+    text: "Keep product stock and orders in sync across your store and backend systems."
+  }
+];
+
+// What we do
+export const whatWeDo = [
+  {
+    name: "High-Performance Websites",
+    text: "Built for speed, scalability, and SEO to ensure fast load times and better rankings.",
+  },
+  {
+    name: "eCommerce Platform Development",
+    text: "Customized, conversion-focused online stores with optimized checkout flows.",
+  },
+  {
+    name: "Modern Frontend Technologies",
+    text: "Powered by React, Next.js, and Angular for lightning-fast, scalable apps.",
+  },
+  {
+    name: "Responsive & Cross-Device Compatibility",
+    text: "Optimized for all screen sizes — mobile, tablet, and desktop."
+  },
+  {
+    name: "Conversion-Driven Design & Functionality",
+    text: "Every element is crafted to increase user retention and turn visitors into customers."
   }
 ];
 

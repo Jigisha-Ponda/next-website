@@ -4,72 +4,72 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --spacing-50: 50rem;
-  --spacing-40\%: 40%;
-  --spacing-45\%: 45%;
-  --spacing-75\%: 75%;
-  --spacing-50\%: 50%;
+    --spacing-50: 50rem;
+    --spacing-40\%: 40%;
+    --spacing-45\%: 45%;
+    --spacing-75\%: 75%;
+    --spacing-50\%: 50%;
 
-  --container-screen-xl: 73.13rem;
-  --container-screen-2xl: 83.75rem;
+    --container-screen-xl: 73.13rem;
+    --container-screen-2xl: 83.75rem;
 
-  --height-47: 304px;
-  --height-49: 350px;
-  --height-150: 750px;
-  --height-6_25: 6.25rem;
+    --height-47: 304px;
+    --height-49: 350px;
+    --height-150: 750px;
+    --height-6_25: 6.25rem;
 
-  --z-index-1: 1;
-  --z-index-999: 999;
+    --z-index-1: 1;
+    --z-index-999: 999;
 
-  --color-primary: #2f73f2;
-  --color-danger: #dc3545;
-  --color-danger_text: #ff3c78;
-  --color-green: #3cd278;
-  --color-grey: #8e8e8e;
-  --color-muted: #547593;
-  --color-midnight_text: #102d47;
-  --color-border: #dfebfc;
-  --color-darkmode: #08162b;
-  --color-hero-bg: #f3f9fd;
-  --color-dark-hero-bg: #121c2e;
-  --color-darkheader: #141d2f;
-  --color-dark_border: #253c50;
-  --color-foottext: #668199;
-  --color-search: #163858;
-  --color-dark_b: #1b2c44;
+    --color-primary: #2f73f2;
+    --color-danger: #dc3545;
+    --color-danger_text: #ff3c78;
+    --color-green: #3cd278;
+    --color-grey: #8e8e8e;
+    --color-muted: #547593;
+    --color-midnight_text: #102d47;
+    --color-border: #dfebfc;
+    --color-darkmode: #08162b;
+    --color-hero-bg: #f3f9fd;
+    --color-dark-hero-bg: #121c2e;
+    --color-darkheader: #141d2f;
+    --color-dark_border: #253c50;
+    --color-foottext: #668199;
+    --color-search: #163858;
+    --color-dark_b: #1b2c44;
 
-  --text-13: 0.8125rem;
-  --text-13--line-height: 1.2;
-  --text-14: 0.875rem;
-  --text-14--line-height: 1.2;
-  --text-16: 1rem;
-  --text-16--line-height: 1.2;
-  --text-18: 1.125rem;
-  --text-18--line-height: 1.2;
-  --text-19: 1.1875rem;
-  --text-19--line-height: 1.8;
-  --text-20: 1.25rem;
-  --text-20--line-height: 1.2;
-  --text-22: 1.375rem;
-  --text-22--line-height: 1.2;
-  --text-24: 1.5rem;
-  --text-24--line-height: 1.2;
-  --text-25: 1.5625rem;
-  --text-25--line-height: 1.2;
-  --text-28: 1.75rem;
-  --text-28--line-height: 1.2;
-  --text-35: 2.1875rem;
-  --text-35--line-height: 1.2;
-  --text-40: 2.5rem;
-  --text-40--line-height: 1.2;
-  --text-48: 3rem;
-  --text-48--line-height: 1.2;
-  --text-50: 3.125rem;
-  --text-50--line-height: 1.2;
+    --text-13: 0.8125rem;
+    --text-13--line-height: 1.2;
+    --text-14: 0.875rem;
+    --text-14--line-height: 1.2;
+    --text-16: 1rem;
+    --text-16--line-height: 1.2;
+    --text-18: 1.125rem;
+    --text-18--line-height: 1.2;
+    --text-19: 1.1875rem;
+    --text-19--line-height: 1.8;
+    --text-20: 1.25rem;
+    --text-20--line-height: 1.2;
+    --text-22: 1.375rem;
+    --text-22--line-height: 1.2;
+    --text-24: 1.5rem;
+    --text-24--line-height: 1.2;
+    --text-25: 1.5625rem;
+    --text-25--line-height: 1.2;
+    --text-28: 1.75rem;
+    --text-28--line-height: 1.2;
+    --text-35: 2.1875rem;
+    --text-35--line-height: 1.2;
+    --text-40: 2.5rem;
+    --text-40--line-height: 1.2;
+    --text-48: 3rem;
+    --text-48--line-height: 1.2;
+    --text-50: 3.125rem;
+    --text-50--line-height: 1.2;
 
-  --tracking-widest: 0.2em;
+    --tracking-widest: 0.2em;
 
-  --background-image-footer-bg: url('/images/bg_images/footer-bg.png');
+    --background-image-footer-bg: url('/images/bg_images/footer-bg.png');
 }
 
 /*
@@ -81,13 +81,14 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
 }
 
 
@@ -127,7 +128,8 @@
     }
 }
 
-.blog-details p, .blog-details hr {
+.blog-details p,
+.blog-details hr {
     @apply mb-8;
 }
 
@@ -159,6 +161,20 @@
     @apply border-border dark:border-dark_border
 }
 
-button{
+button {
     cursor: pointer;
+}
+
+.bg-heroBg {
+    background-color: var(--color-hero-bg);
+}
+
+.dark\:bg-search:is(.dark *),
+.dark\:bg-darkmode:is(.dark *) .bg-heroBg {
+    background-color: var(--color-search);
+}
+
+.dark\:text-white:is(.dark *),
+.dark\:bg-darkmode:is(.dark *) .text-midnight_text {
+    color: #fff !important;
 }

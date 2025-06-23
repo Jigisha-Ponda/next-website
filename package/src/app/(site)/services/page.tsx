@@ -1,8 +1,8 @@
 import HeroSub from "@/components/SharedComponents/HeroSub";
-import Payment from "@/components/Home/Payment";
 import Benefit from "@/components/Home/WebSolutions";
 import Spend from "@/components/Home/Spend";
 import { Metadata } from "next";
+import Expertise from "@/components/Home/Expertise";
 export const metadata: Metadata = {
   title: "Services | Nicktio",
 };
@@ -19,7 +19,7 @@ const Services = () => {
         description="Discover a wealth of insightful materials meticulously crafted to provide you with a comprehensive understanding of the latest trends."
         breadcrumbLinks={breadcrumbLinks}
       />
-      <Payment />
+      <Expertise />
       <Benefit />
       <Spend />
     </>

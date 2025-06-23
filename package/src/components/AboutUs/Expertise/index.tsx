@@ -1,10 +1,10 @@
 "use client";
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
-import { ourExpertise } from "@/app/api/data";
+import { missionVisionValues } from "@/app/api/data";
 import Image from "next/image";
 
-const Payment = () => {
+const MissionVisionValues = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
 
@@ -14,21 +14,13 @@ const Payment = () => {
     transition: { duration: 1, delay: 0.4 },
   };
 
-  const bottomAnimation = (index : any) => ({
+  const bottomAnimation = (index: any) => ({
     initial: { y: "100%", opacity: 0 },
     animate: inView ? { y: 0, opacity: 1 } : { y: "100%", opacity: 0 },
     transition: { duration: 1, delay: 0.4 + index * 0.4 },
   });
 
-  const languages = [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "JQuery",
-    "Angular",
-    "React.js",
-    "Next.js",
-  ];
+
 
   return (
     <section className="dark:bg-darkmode py-14">
@@ -40,28 +32,14 @@ const Payment = () => {
           <div className="px-4 lg:px-12">
             <h2 className="text-center font-semibold md:text-35 sm:text-28 text-24 mb-8 text-midnight_text dark:text-white lg:mx-44">
               Our
-              <span className="text-primary"> Expertise</span>
+              <span className="text-primary"> Mission, Vision & Core Values</span>
             </h2>
-          </div>
-          <div className="flex flex-wrap justify-center gap-10">
-            {languages.map((item, index) => (
-              <p
-                key={index}
-                className={`text-muted dark:text-white dark:text-opacity-70 md:text-18 text-base font-medium relative ${
-                  index !== languages.length - 1
-                    ? "after:content-[''] after:absolute after:w-0.5 after:h-3/4 after:bg-muted after:rounded-full after:-right-5 after:top-0.5"
-                    : ""
-                }`}
-              >
-                {item}
-              </p>
-            ))}
           </div>
         </motion.div>
 
         <div className="flex justify-start sm:mt-20 mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-14 gap-8">
-            {ourExpertise.map((item, index) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-14 gap-8">
+            {missionVisionValues.map((item, index) => (
               <div key={index}>
                 <motion.div {...bottomAnimation(index)}>
                   <div className="rounded-full">
@@ -93,4 +71,4 @@ const Payment = () => {
   );
 };
 
-export default Payment;
+export default MissionVisionValues;

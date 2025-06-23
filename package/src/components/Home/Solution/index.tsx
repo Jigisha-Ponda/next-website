@@ -10,12 +10,12 @@ const Solution = () => {
           <div className="grid lg:grid-cols-2 items-center gap-12">
             <div>
               <h2 className="md:text-35 sm:text-28 text-24 font-semibold text-midnight_text dark:text-white">
-                Enterprise
-                <span className="text-primary max-w-max ml-2">Solution</span>
+                Need a
+                <span className="text-primary max-w-max ml-2 mr-2"> tech team </span>
+                you can rely on?
               </h2>
               <p className="mt-6 text-base text-muted dark:text-white dark:text-opacity-70 lg:max-w-full sm:max-w-75%">
-                Fully programmable, debit - credit physical & virtual cards for
-                individuals and businesses.
+                We bring your ideas to life with scalable, high-performance digital solutions. Let’s create something extraordinary.
               </p>
               <Link
                 href="/contact"

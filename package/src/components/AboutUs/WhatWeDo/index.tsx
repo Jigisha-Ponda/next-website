@@ -4,9 +4,9 @@ import { useRef } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import { whatWeDo } from "@/app/api/data";
+import { perks } from "@/app/api/data";
 
-const WhatWeDo = () => {
+const Mobile = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
 
@@ -27,16 +27,17 @@ const WhatWeDo = () => {
         <div ref={ref} className="grid md:grid-cols-12 items-center lg:gap-12 gap-6">
           <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
             <h2 className="lg:text-35 text-24 text-midnight_text font-semibold dark:text-white">
-              What
-              <span className="lg:text-35 text-24 text-primary font-semibold lg:max-w-max ms-2">
-                We Do
+              Seamless Integration,
+              <br />
+              <span className="lg:text-35 text-24 text-primary font-semibold lg:max-w-max">
+                Smooth Experience
               </span>
             </h2>
             <p className="mt-6 text-muted dark:text-white dark:text-opacity-70 lg:text-17 lg:max-w-full max-w-75%">
-              We specialize in building digital experiences that deliver real business results:
+              We build websites and eCommerce platforms that work flawlessly with the tools you already use—so everything runs like clockwork.
             </p>
             <div className="flex flex-col gap-6 mt-16">
-              {whatWeDo.map((item, index) => (
+              {perks.map((item, index) => (
                 <div key={index} className="flex items-start gap-5">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
                     <Icon
@@ -86,4 +87,4 @@ const WhatWeDo = () => {
   );
 };
 
-export default WhatWeDo;
+export default Mobile;
