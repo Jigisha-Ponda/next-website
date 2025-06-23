@@ -22,7 +22,7 @@ export default function Home() {
       <WebSolutions />
       <Spend />
       <Method />
-      <Mobile />
+      {/* <Mobile /> */}
       {/* <Search /> */}
       {/* <Pricing /> */}
       {/* <Solution /> */}

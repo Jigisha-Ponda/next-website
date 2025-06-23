@@ -4,9 +4,9 @@ import { useRef } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import { whatWeDo } from "@/app/api/data";
+import { perks } from "@/app/api/data";
 
-const WhatWeDo = () => {
+const Mobile = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
 
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
               We specialize in building digital experiences that deliver real business results:
             </p>
             <div className="flex flex-col gap-6 mt-16">
-              {whatWeDo.map((item, index) => (
+              {perks.map((item, index) => (
                 <div key={index} className="flex items-start gap-5">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
                     <Icon
@@ -86,4 +86,4 @@ const WhatWeDo = () => {
   );
 };
 
-export default WhatWeDo;
+export default Mobile;

@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import { perks } from "@/app/api/data";
+import { whatWeDo } from "@/app/api/data";
 
 const Mobile = () => {
   const ref = useRef(null);
@@ -37,7 +37,7 @@ const Mobile = () => {
               We build websites and eCommerce platforms that work flawlessly with the tools you already use—so everything runs like clockwork.
             </p>
             <div className="flex flex-col gap-6 mt-16">
-              {perks.map((item, index) => (
+              {whatWeDo.map((item, index) => (
                 <div key={index} className="flex items-start gap-5">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
                     <Icon
