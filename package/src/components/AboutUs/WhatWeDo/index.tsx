@@ -73,7 +73,7 @@ const Mobile = () => {
           <motion.div {...rightAnimation} className="lg:col-span-6 col-span-12">
             <div className="lg:max-w-full max-w-75% mx-auto">
               <Image
-                src="/images/mobile/mobile.png"
+                src="/images/image/seamless-integration.avif"
                 alt="image"
                 width={555}
                 height={634}

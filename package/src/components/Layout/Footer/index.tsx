@@ -47,13 +47,13 @@ const Footer = () => {
         <div className="grid grid-cols-12 sm:mb-16 mb-8 pt-8 gap-4 relative before:content-[''] before:absolute before:w-20 before:h-20 before:bg-[url('/images/footer/bgcir.png')] before:bg-no-repeat before:-left-36 before:bottom-9 lg:before:block before:hidden">
           <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
-              Features
+              Quick Links
             </h4>
             <ul>
               {footerLinks.slice(0, 4).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
-                    href="#"
+                    href={item.url}
                     className="text-foottext text-16 hover:text-primary"
                   >
                     {item.link}
@@ -65,10 +65,10 @@ const Footer = () => {
 
           <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
-              Resources
+              Top Technologies
             </h4>
             <ul>
-              {footerLinks.slice(4, 9).map((item, index) => (
+              {footerLinks.slice(6, 10).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
@@ -83,10 +83,10 @@ const Footer = () => {
 
           <div className="md:col-span-3 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
-              Platform
+              Our Services
             </h4>
             <ul>
-              {footerLinks.slice(9, 14).map((item, index) => (
+              {footerLinks.slice(4, 6).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
@@ -142,14 +142,14 @@ const Footer = () => {
         <div className="flex items-center sm:flex-row flex-col justify-between py-10 mt-8">
           <p className="text-16 text-foottext sm:mb-0 mb-4">
             © Copyright 2025. All rights reserved by <Link
-              href="https://getnextjstemplates.com/"
+              href=""
               target="_blank"
               className="hover:text-primary"
             >
-              GetNextJs Templates.
+              Softway
             </Link>
           </p>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             {footerLinks.slice(14, 17).map((item, index) => (
               <div key={index} className="">
                 <Link href="#" className="text-foottext hover:text-primary">
@@ -157,7 +157,7 @@ const Footer = () => {
                 </Link>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -52,7 +52,7 @@ const WebSolutions = () => {
             >
               <div className="xl:px-0 lg:px-20">
                 <Image
-                  src="/images/benefit/benefit.png"
+                  src="/images/image/web-solutions.avif"
                   alt="image"
                   width={435}
                   height={304}

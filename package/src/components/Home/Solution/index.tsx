@@ -11,7 +11,7 @@ const Solution = () => {
             <div>
               <h2 className="md:text-35 sm:text-28 text-24 font-semibold text-midnight_text dark:text-white">
                 Need a
-                <span className="text-primary max-w-max ml-2 mr-2"> tech team </span>
+                <span className="text-primary max-w-max ml-1 mr-1"> tech team </span>
                 you can rely on?
               </h2>
               <p className="mt-6 text-base text-muted dark:text-white dark:text-opacity-70 lg:max-w-full sm:max-w-75%">
@@ -31,7 +31,7 @@ const Solution = () => {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/images/solution/solution.png"
+                src="/images/image/tech-team.avif"
                 alt="image"
                 width={531}
                 height={200}

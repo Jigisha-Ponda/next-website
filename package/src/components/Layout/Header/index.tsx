@@ -111,6 +111,12 @@ const Header: React.FC = () => {
             </svg>
           </button>
           <Link
+              href="/contact"
+              className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white"
+            >
+              Contact Us
+            </Link>
+          {/* <Link
             href="#"
             className="hidden lg:flex items-center bg-primary border border-primary hover:border-primary dark:text-white text-white px-4 py-2  gap-2 rounded-lg text-16 font-semibold hover:bg-transparent hover:text-primary dark:hover:text-primary"
             onClick={() => {
@@ -159,7 +165,7 @@ const Header: React.FC = () => {
                 <SignUp />
               </div>
             </div>
-          )}
+          )} */}
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             className="block lg:hidden p-2 rounded-lg"

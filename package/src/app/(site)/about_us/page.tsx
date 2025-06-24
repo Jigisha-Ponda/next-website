@@ -4,8 +4,8 @@ import HeroSub from "@/components/SharedComponents/HeroSub";
 import { Metadata } from "next";
 import Details from "@/components/AboutUs/Details";
 import MissionVisionValues from "@/components/AboutUs/Expertise";
-import WhatWeDo from "@/components/Home/Mobile";
 import Solution from "@/components/Home/Solution";
+import WhatWeDo from "@/components/AboutUs/WhatWeDo";
 export const metadata: Metadata = {
     title: "Blog | Nicktio",
 };

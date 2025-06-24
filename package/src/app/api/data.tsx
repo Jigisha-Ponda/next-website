@@ -90,58 +90,47 @@ export const Solutions = [
 ];
 
 // Footer Links
-export const footerLinks: { link: string }[] = [
+export const footerLinks: { url:string,link: string }[] = [
   {
-    link: "Online Payments",
+    url:"/",
+    link: "Home",
   },
   {
-    link: "Financial Projections",
+    url:"/about_us",
+    link: "About Us",
   },
   {
-    link: "Bookkeeping",
+    url:"/services",
+    link: "Services",
   },
   {
-    link: "Banking",
+    url:"/portfolio",
+    link: "Portfolio",
   },
   {
-    link: "Documentation",
+    url:"/",
+    link: "Website Development",
   },
   {
-    link: "Integrations",
+    url:"/",
+    link:"E-commerce Development"
   },
   {
-    link: "API Reference",
+    url:"/",
+    link:"Javascript",
   },
   {
-    link: "Support",
+    url:"/",
+    link:"Angular",
   },
   {
-    link: "Help",
+    url:"/",
+    link:"React Js",
   },
   {
-    link: "Infrastructure",
-  },
-  {
-    link: "Certifications",
-  },
-  {
-    link: "Licenses",
-  },
-  {
-    link: "Terms and conditions",
-  },
-  {
-    link: "Legal",
-  },
-  {
-    link: "Privacy",
-  },
-  {
-    link: "Cookies",
-  },
-  {
-    link: "Disclaimer",
-  },
+    url:"/",
+    link:"Next.js",
+  }
 ];
 
 // Perks
