@@ -157,8 +157,8 @@ const ContactForm = () => {
           </div>
           <div className="col-span-6">
             <Image
-              src="/images/contact-page/contact.jpg"
-              alt="Contact"
+              src="/images/image/discuss-goals.avif"
+              alt="goals"
               width={1300}
               height={0}
               quality={100}
