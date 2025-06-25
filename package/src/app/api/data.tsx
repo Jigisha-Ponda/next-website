@@ -42,6 +42,18 @@ export const ourExpertise = [
   },
 ];
 
+// export const portfolios = [
+//   {
+//     title: "Ritzin.net",
+//     slug: "ritzin-project",
+//     coverImage: "/images/image/ritzin-project.png",
+//     excerpt: "Short description",
+//     author: "Shaili",
+//     authorImage: "/images/payment/user.svg",
+//     date: "2024-06-15",
+//     type: "Web App",
+//   }
+// ]
 // Our Mission & Vision
 export const missionVisionValues = [
   {
@@ -90,50 +102,50 @@ export const Solutions = [
 ];
 
 // Footer Links
-export const footerLinks: { url:string,link: string }[] = [
+export const footerLinks: { url: string, link: string }[] = [
   {
-    url:"/",
+    url: "/",
     link: "Home",
   },
   {
-    url:"/about_us",
+    url: "/about_us",
     link: "About Us",
   },
   {
-    url:"/services",
+    url: "/services",
     link: "Services",
   },
   {
-    url:"/portfolio",
+    url: "/portfolio",
     link: "Portfolio",
   },
   {
-    url:"/contact",
+    url: "/contact",
     link: "Contact Us"
   },
   {
-    url:"/",
+    url: "/",
     link: "Website Development",
   },
   {
-    url:"/",
-    link:"E-commerce Development"
+    url: "/",
+    link: "E-commerce Development"
   },
   {
-    url:"/",
-    link:"Javascript",
+    url: "/",
+    link: "Javascript",
   },
   {
-    url:"/",
-    link:"Angular",
+    url: "/",
+    link: "Angular",
   },
   {
-    url:"/",
-    link:"React Js",
+    url: "/",
+    link: "React Js",
   },
   {
-    url:"/",
-    link:"Next.js",
+    url: "/",
+    link: "Next.js",
   }
 ];
 

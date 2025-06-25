@@ -13,7 +13,7 @@ export const TypographyConfiguration = () => {
           <p className="text-sm text-gray-400 flex flex-col gap-2 mb-3">
             {`import { DM_Sans } from "next/font/google";`}
           </p>
-          <p className="text-sm text-gray-400 flex flex-col gap-2">
+          <p className="text-sm text-gray-4 flex flex-col gap-2">
             {`const dmsans = DM_Sans({ subsets: ["latin"] });`}
           </p>
         </div>

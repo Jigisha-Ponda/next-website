@@ -1,8 +1,9 @@
 import React from "react";
 import HeroSub from "@/components/SharedComponents/HeroSub";
 import { Metadata } from "next";
+import PortfolioList from "@/components/Portfolio/PortfolioList";
 export const metadata: Metadata = {
-  title: "Contact | Nicktio",
+  title: "Portfolio | Nicktio",
 };
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
         description="Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing Variou"
         breadcrumbLinks={breadcrumbLinks}
       />
+      <PortfolioList/>
     </>
   );
 };

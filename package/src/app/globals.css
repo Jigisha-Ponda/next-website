@@ -178,3 +178,5 @@ button {
 .dark\:bg-darkmode:is(.dark *) .text-midnight_text {
     color: #fff !important;
 }
+
+

@@ -8,3 +8,15 @@ export type Blog = {
   coverImage?: string;
   date: string;
 };
+
+export type Portfolio = {
+  slug: string;
+  title: string;
+  date: string;
+  type: string;
+  excerpt: string;
+  coverImage: string;
+  content?: string;
+  author?: string;
+  authorImage?: string;
+};
