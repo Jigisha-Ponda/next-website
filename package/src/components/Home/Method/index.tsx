@@ -75,11 +75,11 @@ const Method = () => {
                   </div>
                   <div>
                     <Image
-                      src="/images/method/card.png"
+                      src="/images/image/discover-plan.jpg"
                       alt="card"
                       width={459}
                       height={289}
-                      className="xl:w-full w-75% mx-auto"
+                      className="w-full h-auto object-cover"
                     />
                   </div>
                 </div>
@@ -111,11 +111,11 @@ const Method = () => {
                 </div>
                 <div className="flex-1 w-full h-full">
                   <Image
-                    src="/images/method/method1.jpg"
+                    src="/images/image/design-with-purpose.jpg"
                     alt="image"
                     width={232}
                     height={375}
-                    className="w-full h-full"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
               </motion.div>
@@ -148,7 +148,7 @@ const Method = () => {
                     alt="image"
                     width={232}
                     height={375}
-                    className="w-full h-full"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
               </motion.div>
@@ -160,11 +160,11 @@ const Method = () => {
               >
                 <div className="flex-1">
                   <Image
-                    src="/images/method/method2.png"
+                    src="/images/image/launch-support.avif"
                     alt="image"
                     width={232}
                     height={375}
-                    className="w-full"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
                 <div className="flex-1 px-9 flex justify-center flex-col py-9">
