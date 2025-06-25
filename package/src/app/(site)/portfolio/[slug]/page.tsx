@@ -3,14 +3,14 @@ import markdownToHtml from "@/utils/markdownToHtml";
 import { format } from "date-fns";
 import Image from "next/image";
 
-export async function generateMetadata({ params }:  { params: { slug: string } }) {
+export async function generateMetadata({ params }: any) {
   const portfolio = getPortfolioBySlug(params.slug, ["title"]);
   return {
     title: `${portfolio?.title || "Portfolio"} | My Site`,
   };
 }
 
-export default async function PortfolioDetails({ params }:  { params: { slug: string } }) {
+export default async function PortfolioDetails({ params } :any) {
   const portfolio = getPortfolioBySlug(params.slug, [
     "title",
     "author",
