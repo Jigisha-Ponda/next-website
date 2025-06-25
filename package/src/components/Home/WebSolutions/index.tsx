@@ -35,7 +35,7 @@ const WebSolutions = () => {
           ref={ref}
           className="dark:bg-midnight_text bg-heroBg rounded-3xl md:py-20 py-10 2xl:pr-14 2xl:pl-20 sm:px-14 px-6"
         >
-          <motion.div {...TopAnimation} className="items-start">
+          <motion.div className="items-start">
             <h2 className="font-bold md:text-35 sm:text-28 text-24 text-midnight_text dark:text-white">
               Smart
               <span className="bg-border dark:bg-darkHeroBg rounded-lg text-primary max-w-max ml-2">
@@ -47,7 +47,6 @@ const WebSolutions = () => {
           </motion.div>
           <div className="grid grid-cols-12 items-center mt-16 md:gap-12 sm:gap-8">
             <motion.div
-              {...leftAnimation}
               className="xl:col-span-6 col-span-12 sm:block hidden"
             >
               <div className="xl:px-0 lg:px-20">
@@ -61,7 +60,6 @@ const WebSolutions = () => {
               </div>
             </motion.div>
             <motion.div
-              {...rightAnimation}
               className="xl:col-span-6 col-span-12"
             >
               <p className="sm:text-25 text-18 text-midnight_text font-medium dark:text-white">

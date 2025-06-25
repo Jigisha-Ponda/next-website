@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="w-full h-full absolute z-0 bg-heroBg rounded-b-[119px] -left-1/4 top-0 dark:bg-midnight_text"></div>
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) relative z-1 md:max-w-(--breakpoint-md) px-4">
         <div className="grid grid-cols-12 items-center">
-          <motion.div {...leftAnimation} className="lg:col-span-6 col-span-12">
+          <motion.div className="lg:col-span-6 col-span-12">
             <h1 className="md:text-50 sm:text-40 text-28 text-midnight_text lg:text-start mb-9 lg:w-full w-3/4">
               Custom Website &
               <br />
@@ -95,7 +95,6 @@ const Hero = () => {
             </div> */}
           </motion.div>
           <motion.div
-            {...rightAnimation}
             className="lg:col-span-6 col-span-12 pl-20 lg:block hidden"
           >
             <Image

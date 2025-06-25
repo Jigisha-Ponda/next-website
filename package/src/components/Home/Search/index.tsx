@@ -71,7 +71,6 @@ const Search = () => {
           className="dark:bg-midnight_text bg-heroBg rounded-3xl p-2"
         >
           <motion.div
-            {...TopAnimation}
             className="text-center lg:px-20 px-4 pt-20"
           >
             <div className="flex justify-center">
@@ -119,7 +118,7 @@ const Search = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div {...bottomAnimation}>
+          <motion.div>
             {review.map((item, index) => (
               <div
                 key={index}

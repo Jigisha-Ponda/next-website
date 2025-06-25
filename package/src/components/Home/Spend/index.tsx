@@ -45,7 +45,7 @@ const Spend: FC = () => {
     <section className="dark:bg-darkmode overflow-hidden py-14">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
         <div ref={ref}>
-          <motion.div {...TopAnimation} className="text-center">
+          <motion.div className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white">
               Smart Solutions for 
               <span className="text-primary ml-2">Growing Brands</span>
@@ -54,7 +54,7 @@ const Spend: FC = () => {
             We build high-performance websites and custom eCommerce platforms using React, Next.js, and Angular—helping you scale faster, sell smarter, and stand out online.
             </p>
           </motion.div>
-          <motion.div {...bottomAnimation} className="flex justify-center items-center">
+          <motion.div className="flex justify-center items-center">
             <div className="relative overflow-hidden mt-14">
               <Image
                 src="/images/image/smart-solution.avif"

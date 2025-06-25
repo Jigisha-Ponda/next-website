@@ -45,7 +45,7 @@ const Details: FC = () => {
     <section className="dark:bg-darkmode overflow-hidden py-14">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
         <div ref={ref}>
-          <motion.div {...TopAnimation} className="text-center">
+          <motion.div className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white">
               Empowering Innovation Through
               <span className="text-primary ml-2">Technology</span>
@@ -54,7 +54,7 @@ const Details: FC = () => {
               At softway, we specialize in crafting cutting-edge software solutions that drive growth and deliver measurable results. Whether you're a startup or an enterprise, we bring innovation, agility, and reliability to every line of code we write.
             </p>
           </motion.div>
-          <motion.div {...bottomAnimation} className="flex justify-center items-center">
+          <motion.div className="flex justify-center items-center">
             <div className="relative overflow-hidden mt-14">
               <Image
                 src="/images/image/innovation.avif"

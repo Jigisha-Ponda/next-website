@@ -39,7 +39,7 @@ const Method = () => {
           ref={ref}
           className="dark:bg-midnight_text bg-heroBg rounded-3xl py-16 sm:px-20 px-5"
         >
-          <motion.div {...TopAnimation} className="text-center">
+          <motion.div className="text-center">
             <h2 className="md:text-35 sm:text-28 text-24 text-midnight_text font-semibold mb-5 dark:text-white lg:max-w-full sm:max-w-75% mx-auto">
               Turning Your 
               <span className="text-primary max-w-max ml-2">
@@ -51,7 +51,7 @@ const Method = () => {
             </p>
           </motion.div>
           <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-11">
-            <motion.div {...TopAnimation} className="col-span-2">
+            <motion.div className="col-span-2">
               <div className="bg-white dark:bg-darkmode rounded-2xl">
                 <div className="grid xl:grid-cols-2 xl:gap-10">
                   <div className="xl:py-14 py-8 xl:pl-9 px-9">
@@ -87,7 +87,6 @@ const Method = () => {
             </motion.div>
             <div className="h-full flex flex-col gap-4 lg:col-span-1 col-span-2">
               <motion.div
-                {...leftAnimation1}
                 className="bg-white dark:bg-darkmode flex gap-1 items-center rounded-2xl overflow-hidden"
               >
                 <div className="flex-1 pl-8 py-5">
@@ -120,7 +119,6 @@ const Method = () => {
                 </div>
               </motion.div>
               <motion.div
-                {...leftAnimation2}
                 className="bg-white dark:bg-darkmode flex gap-1 items-center rounded-2xl overflow-hidden"
               >
                 <div className="flex-1 pl-8 py-5">
@@ -155,7 +153,6 @@ const Method = () => {
             </div>
             <div className="h-full flex flex-col gap-4 lg:col-span-1 col-span-2">
               <motion.div
-                {...rightAnimation}
                 className="bg-white dark:bg-darkmode rounded-2xl overflow-hidden flex flex-col h-full"
               >
                 <div className="flex-1">

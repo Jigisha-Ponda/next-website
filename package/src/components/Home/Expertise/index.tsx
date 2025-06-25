@@ -36,7 +36,7 @@ const Expertise = () => {
         ref={ref}
         className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4"
       >
-        <motion.div {...TopAnimation}>
+        <motion.div>
           <div className="px-4 lg:px-12">
             <h2 className="text-center font-semibold md:text-35 sm:text-28 text-24 mb-8 text-midnight_text dark:text-white lg:mx-44">
               Our
@@ -62,7 +62,7 @@ const Expertise = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-14 gap-8">
             {ourExpertise.map((item, index) => (
               <div key={index}>
-                <motion.div {...bottomAnimation(index)}>
+                <motion.div>
                   <div className="rounded-full">
                     <Image
                       src={item.image}
