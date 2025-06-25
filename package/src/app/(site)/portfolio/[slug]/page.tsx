@@ -2,20 +2,15 @@ import { getPortfolioBySlug } from "@/utils/portfolioMarkdown";
 import markdownToHtml from "@/utils/markdownToHtml";
 import { format } from "date-fns";
 import Image from "next/image";
-import Link from "next/link";
 
-type Props = {
-  params: { slug: string };
-};
-
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }:  { params: { slug: string } }) {
   const portfolio = getPortfolioBySlug(params.slug, ["title"]);
   return {
     title: `${portfolio?.title || "Portfolio"} | My Site`,
   };
 }
 
-export default async function PortfolioDetails({ params }: Props) {
+export default async function PortfolioDetails({ params }:  { params: { slug: string } }) {
   const portfolio = getPortfolioBySlug(params.slug, [
     "title",
     "author",
