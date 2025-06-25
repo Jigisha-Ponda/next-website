@@ -108,6 +108,10 @@ export const footerLinks: { url:string,link: string }[] = [
     link: "Portfolio",
   },
   {
+    url:"/contact",
+    link: "Contact Us"
+  },
+  {
     url:"/",
     link: "Website Development",
   },

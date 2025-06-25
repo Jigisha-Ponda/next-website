@@ -50,7 +50,7 @@ const Footer = () => {
               Quick Links
             </h4>
             <ul>
-              {footerLinks.slice(0, 4).map((item, index) => (
+              {footerLinks.slice(0, 5).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href={item.url}
@@ -68,7 +68,7 @@ const Footer = () => {
               Top Technologies
             </h4>
             <ul>
-              {footerLinks.slice(6, 10).map((item, index) => (
+              {footerLinks.slice(7, 11).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
@@ -86,7 +86,7 @@ const Footer = () => {
               Our Services
             </h4>
             <ul>
-              {footerLinks.slice(4, 6).map((item, index) => (
+              {footerLinks.slice(5, 7).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
