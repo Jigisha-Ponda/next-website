@@ -157,7 +157,7 @@ const ContactForm = () => {
           </div>
           <div className="col-span-6">
             <Image
-              src="/images/image/cropped-team-work.avif"
+              src="/images/image/team-work.avif"
               alt="goals"
               width={1300}
               height={0}

@@ -57,7 +57,7 @@ const Details: FC = () => {
           <motion.div className="flex justify-center items-center">
             <div className="relative overflow-hidden mt-14">
               <Image
-                src="/images/image/innovation.avif"
+                src="/images/image/team-work.avif"
                 alt="image"
                 width={550}
                 height={350}

@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-foottext">
               <Icon icon="majesticons:phone-retro-line" className="w-7 h-7" />
               <Link href="#" className="text-16 hover:text-primary">
-                <span> +1 (123) 123 1234</span>
+                <span>+91 80000 27581</span>
               </Link>
             </div>
             <div className="flex items-center text-foottext gap-2">
