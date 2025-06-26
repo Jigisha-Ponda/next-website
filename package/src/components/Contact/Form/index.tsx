@@ -155,7 +155,7 @@ const ContactForm = () => {
             </form>
 
           </div>
-          <div className="col-span-6">
+          <div className="col-span-6 flex items-center justify-center">
             <Image
               src="/images/image/team-work.avif"
               alt="goals"
@@ -163,7 +163,7 @@ const ContactForm = () => {
               height={0}
               quality={100}
               style={{ width: "100%", height: "auto" }}
-              className="bg-no-repeat bg-contain"
+              className="bg-no-repeat bg-contain max-w-full h-auto"
             />
           </div>
         </div>
