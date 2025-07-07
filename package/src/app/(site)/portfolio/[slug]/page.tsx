@@ -4,7 +4,11 @@ import { format } from "date-fns";
 import Image from "next/image";
 
 export async function generateMetadata({ params }: any) {
-  const portfolio = getPortfolioBySlug(params.slug, ["title"]);
+  const { slug } = params;
+
+  // If getPortfolioBySlug is sync:
+  const portfolio = getPortfolioBySlug(slug, ["title"]);
+
   return {
     title: `${portfolio?.title || "Portfolio"} | My Site`,
   };

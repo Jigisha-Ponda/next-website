@@ -129,6 +129,10 @@ export const footerLinks: { url: string, link: string }[] = [
   },
   {
     url: "/",
+    link: "Website Design"
+  },
+  {
+    url: "/",
     link: "E-commerce Development"
   },
   {

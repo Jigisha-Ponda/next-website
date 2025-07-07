@@ -17,7 +17,7 @@ const ContactInfo = () => {
                     Email US
                   </span>
                   <p className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    Feel free to contact us at info@softway.com we’ll respond promptly
+                    Feel free to contact us at emphasissoftinfo@gmail.com we’ll respond promptly
                   </p>
                 </div>
                 <div>

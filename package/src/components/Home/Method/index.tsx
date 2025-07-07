@@ -62,7 +62,7 @@ const Method = () => {
                     We understand your goals and define a clear project roadmap.
                     </p>
                     <Link
-                      href="#"
+                      href="/contact"
                       className="text-17 flex gap-2 items-center hover:text-blue-700 text-primary "
                     >
                       Get Started
@@ -97,7 +97,7 @@ const Method = () => {
                   Developing modern, user-friendly interfaces from your design files.
                   </p>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="text-17 flex gap-2 items-center hover:text-blue-700 text-primary "
                   >
                     Get Started
@@ -129,7 +129,7 @@ const Method = () => {
                   Developing fast, scalable apps using React, Next.js, Angular & Odoo POS.
                   </p>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="text-17 flex gap-2 items-center hover:text-blue-700 text-primary "
                   >
                     Get Started
@@ -172,7 +172,7 @@ const Method = () => {
                   Deploying smoothly and ensuring ongoing performance and updates.
                   </p>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="text-17 flex gap-2 items-center hover:text-blue-700 text-primary "
                   >
                     Get Started

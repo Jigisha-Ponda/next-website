@@ -26,6 +26,8 @@ const Expertise = () => {
     "Javascript",
     "JQuery",
     "Angular",
+    "Angular Material",
+    "Tailwind CSS",
     "React.js",
     "Next.js",
   ];
@@ -43,7 +45,7 @@ const Expertise = () => {
               <span className="text-primary"> Expertise</span>
             </h2>
           </div>
-          <div className="flex flex-wrap justify-center gap-10">
+          <div className="flex flex-wrap justify-center gap-10 lg:w-50 lg:mx-auto">
             {languages.map((item, index) => (
               <p
                 key={index}

@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="flex items-center mt-12 gap-11">
               <div>
                 <Link
-                  href="#"
+                  href="/"
                   className="text-17 flex gap-2 items-center bg-primary text-white py-3 px-8 rounded-lg border border-primary hover:text-primary hover:bg-transparent"
                 >
                   Get Started
@@ -53,10 +53,10 @@ const Hero = () => {
               </div>
               <div>
                 <Link
-                  href="#"
+                  href="/services"
                   className="text-17 flex gap-2 items-center text-muted dark:text-white dark:text-opacity-70 hover:text-primary"
                 >
-                  See Features
+                  See Services
                   <Icon
                     icon="solar:alt-arrow-right-linear"
                     width="13"

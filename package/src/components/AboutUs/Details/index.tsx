@@ -51,7 +51,7 @@ const Details: FC = () => {
               <span className="text-primary ml-2">Technology</span>
             </h2>
             <p className="text-17 text-muted dark:text-white dark:text-opacity-70 lg:font-medium mx-1 lg:mx-64 mb-3">
-              At softway, we specialize in crafting cutting-edge software solutions that drive growth and deliver measurable results. Whether you're a startup or an enterprise, we bring innovation, agility, and reliability to every line of code we write.
+              At EmphasisSoft, we specialize in crafting cutting-edge software solutions that drive growth and deliver measurable results. Whether you're a startup or an enterprise, we bring innovation, agility, and reliability to every line of code we write.
             </p>
           </motion.div>
           <motion.div className="flex justify-center items-center">

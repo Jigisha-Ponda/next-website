@@ -7,7 +7,7 @@ import Link from "next/link";
 const PortfolioCard = ({ portfolio }: { portfolio: Portfolio }) => {
     const { title, coverImage, type, excerpt, date, slug } = portfolio;
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-9 items-center group">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 items-center group">
             <div className="relative">
                 <div className="overflow-hidden rounded-lg">
                     <Link
@@ -20,8 +20,8 @@ const PortfolioCard = ({ portfolio }: { portfolio: Portfolio }) => {
                                 <Image
                                     src={coverImage!}
                                     alt="image"
-                                    width={800} // increase width to prevent blur
-                                    height={500} // taller height
+                                    width={800}
+                                    height={500} 
                                     className="w-full h-[200px] object-cover transition group-hover:scale-110 rounded-lg"
                                 />
                             </div>

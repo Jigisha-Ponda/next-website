@@ -81,7 +81,7 @@ const WebSolutions = () => {
               ))}
               <div className="flex items-center lg:justify-start justify-center">
                 <Link
-                  href="#"
+                  href="/"
                   className="text-17 flex gap-3 items-center bg-primary text-white py-3 px-8 rounded-lg  mt-12 border border-primary hover:text-primary hover:bg-transparent"
                 >
                   Get Started
