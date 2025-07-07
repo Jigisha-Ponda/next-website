@@ -126,7 +126,7 @@ const Method = () => {
                   Build with Precision
                   </h3>
                   <p className="text-muted dark:text-white dark:text-opacity-70 md:text-18 text-16 md:mb-14 mb-8">
-                  Developing fast, scalable apps using React, Next.js, Angular & Odoo POS.
+                    Developing fast, scalable Website using React, Next.js & Angular.
                   </p>
                   <Link
                     href="/contact"
