@@ -21,7 +21,7 @@ const ContactInfo = () => {
                   </p>
                 </div>
                 <div>
-                  <Link href="#" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
+                  <Link href="mailto:emphasissoftinfo@gmail.com" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
                     Leave a message
                     <svg
                       width="23"
