@@ -44,17 +44,17 @@ const ContactForm = () => {
         confirmButtonColor: '#d33',
       });
     }
-    
+
   };
 
   return (
     <section className="dark:bg-darkmode pb-24">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
+        <h2 className="max-w-100 text-40 font-bold mb-9">
+          Let’s Discuss Your Digital Goals
+        </h2>
         <div className="grid md:grid-cols-12 grid-cols-1 gap-8">
           <div className="col-span-6">
-            <h2 className="max-w-72 text-40 font-bold mb-9">
-              Let’s Discuss Your Digital Goals
-            </h2>
             <form onSubmit={handleSubmit} className="flex flex-wrap w-full m-auto justify-between">
               <div className="sm:flex gap-3 w-full">
                 <div className="mx-0 my-2.5 flex-1">
@@ -157,7 +157,7 @@ const ContactForm = () => {
           </div>
           <div className="col-span-6 flex items-center justify-center">
             <Image
-              src="/images/image/team-work.avif"
+              src="/images/image/contact-us.png"
               alt="goals"
               width={1300}
               height={0}
