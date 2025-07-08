@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="flex items-center text-foottext text-16">
               <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
               <div className="flex flex-col">
-                <span>Rajkot</span>
-                {/* <span>United Kingdom</span> */}
+                <span>401, Pride Classic, Patidar Chowk,</span>
+                <span className="mt-1"> Rajkot, Gujarat</span>
               </div>
             </div>
             <div className="flex items-center gap-2 text-foottext">
