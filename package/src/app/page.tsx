@@ -11,7 +11,7 @@ import WebSolutions from "@/components/Home/WebSolutions";
 import Expertise from "@/components/Home/Expertise";
 
 export const metadata: Metadata = {
-  title: "Nicktio",
+  title: "Emphasis Soft",
 };
 
 export default function Home() {

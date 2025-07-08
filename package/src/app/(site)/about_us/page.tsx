@@ -7,7 +7,7 @@ import MissionVisionValues from "@/components/AboutUs/Expertise";
 import Solution from "@/components/Home/Solution";
 import WhatWeDo from "@/components/AboutUs/WhatWeDo";
 export const metadata: Metadata = {
-    title: "Blog | Nicktio",
+    title: "About Us | Nicktio",
 };
 
 const Page = () => {
