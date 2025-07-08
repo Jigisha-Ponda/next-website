@@ -20,8 +20,9 @@ const page = () => {
         description="Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing Variou"
         breadcrumbLinks={breadcrumbLinks}
       />
-      <ContactInfo />
       <ContactForm />
+      <ContactInfo />
+
       {/* <Location /> */}
     </>
   );

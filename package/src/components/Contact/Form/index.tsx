@@ -48,7 +48,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="dark:bg-darkmode pb-24">
+    <section className="dark:bg-darkmode pt-24 pb-24">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
         <h2 className="max-w-100 text-40 font-bold mb-9">
           Let’s Discuss Your Digital Goals
