@@ -5,7 +5,7 @@ import React from "react";
 import HeroSub from "@/components/SharedComponents/HeroSub";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Contact | Nicktio",
+  title: "Contact | Emphasis Soft",
 };
 
 const page = () => {
@@ -22,7 +22,6 @@ const page = () => {
       />
       <ContactForm />
       <ContactInfo />
-
       {/* <Location /> */}
     </>
   );

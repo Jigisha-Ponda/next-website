@@ -4,7 +4,7 @@ import Spend from "@/components/Home/Spend";
 import { Metadata } from "next";
 import Expertise from "@/components/Home/Expertise";
 export const metadata: Metadata = {
-  title: "Services | Nicktio",
+  title: "Services | Emphasis Soft",
 };
 
 const Services = () => {

@@ -3,7 +3,7 @@ import HeroSub from "@/components/SharedComponents/HeroSub";
 import { Metadata } from "next";
 import PortfolioList from "@/components/Portfolio/PortfolioList";
 export const metadata: Metadata = {
-  title: "Portfolio | Nicktio",
+  title: "Portfolio | Emphasis Soft",
 };
 
 const page = () => {
