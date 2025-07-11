@@ -27,7 +27,7 @@ const Footer = () => {
                 href="mailto:info@emphasissoft.com"
                 className="inline-flex items-center text-16 hover:text-primary"
               >
-                <span>info@emphasissoft.com"</span>
+                <span>info@emphasissoft.com</span>
               </Link>
             </div>
           </div>
