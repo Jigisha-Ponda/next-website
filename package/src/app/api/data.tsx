@@ -136,10 +136,6 @@ export const footerLinks: { url: string, link: string }[] = [
   },
   {
     url: "/",
-    link: "Javascript",
-  },
-  {
-    url: "/",
     link: "Angular",
   },
   {
@@ -149,6 +145,18 @@ export const footerLinks: { url: string, link: string }[] = [
   {
     url: "/",
     link: "Next.js",
+  },
+  {
+    url:"",
+    link:"Figma"
+  },
+  {
+    url:"",
+    link:"Adobe Illustrator"
+  },
+  { 
+    url:"",
+    link:"Adobe Photoshop"
   }
 ];
 

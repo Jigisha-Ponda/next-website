@@ -42,7 +42,7 @@ const Expertise = () => {
         className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4"
       >
         <motion.div>
-          <div className="px-4 lg:px-12">
+          <div className="px-5 lg:px-12">
             <h2 className="text-center font-semibold md:text-35 sm:text-28 text-24 mb-8 text-midnight_text dark:text-white lg:mx-44">
               Our
               <span className="text-primary"> Expertise</span>
