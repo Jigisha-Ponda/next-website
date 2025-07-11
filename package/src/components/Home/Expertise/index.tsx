@@ -30,6 +30,9 @@ const Expertise = () => {
     "Tailwind CSS",
     "React.js",
     "Next.js",
+    "Logo Design",
+    "Social Media Graphics",
+    "UI/UX Mockups"
   ];
 
   return (

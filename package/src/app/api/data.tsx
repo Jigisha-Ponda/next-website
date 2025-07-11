@@ -30,18 +30,17 @@ export const ourExpertise = [
   },
   {
     image: "/images/payment/user.svg",
+    title: "Creative Graphic Design",
+    details:
+      "We craft stunning visuals, branding assets, and marketing materials that elevate your brand and captivate your audience.",
+  },
+  {
+    image: "/images/payment/user.svg",
     title: "Pixel-Perfect Frontend Implementation",
     details:
       "We turn UI designs into responsive, high-quality interfaces using clean HTML, CSS, and JavaScript.",
   },
-  {
-    image: "/images/payment/user.svg",
-    title: "Scalable & Conversion-Focused Solutions",
-    details:
-      "Our code structure ensures your website grows with your business—designed to boost engagement and sales.",
-  },
 ];
-
 // export const portfolios = [
 //   {
 //     title: "Ritzin.net",
@@ -69,14 +68,11 @@ export const missionVisionValues = [
       "To become a globally trusted technology partner for startups and enterprises by consistently delivering excellence in software development and digital experiences. We envision a future where technology simplifies lives and accelerates business growth.",
   },
 ];
-
-// Solutions
 export const Solutions = [
   {
     image: "/images/benefit/pic.svg",
     alt: "Trusted brand",
-    details:
-      "Custom Development with Modern Frameworks",
+    details: "Custom Development with Modern Frameworks",
   },
   {
     image: "/images/benefit/contact.svg",
@@ -86,7 +82,7 @@ export const Solutions = [
   {
     image: "/images/benefit/bank.svg",
     alt: "Trusted brand",
-    details: "Mobile-optimized, lightning-fast performance",
+    details: "Creative & Brand-Aligned Graphic Design",
   },
   {
     image: "/images/benefit/files.svg",
@@ -96,8 +92,7 @@ export const Solutions = [
   {
     image: "/images/benefit/setting.svg",
     alt: "Trusted brand",
-    details:
-      "Ongoing Support & Maintenance",
+    details: "Ongoing Support & Maintenance",
   },
 ];
 
@@ -130,6 +125,10 @@ export const footerLinks: { url: string, link: string }[] = [
   {
     url: "/",
     link: "Website Design"
+  },
+  {
+    url: "/",
+    link: "Graphic Design"
   },
   {
     url: "/",
@@ -184,16 +183,16 @@ export const whatWeDo = [
     text: "Customized, conversion-focused online stores with optimized checkout flows.",
   },
   {
-    name: "Modern Frontend Technologies",
-    text: "Powered by React, Next.js, and Angular for lightning-fast, scalable apps.",
+    name: "Creative Graphic Design",
+    text: "From logos to marketing assets, we create brand visuals that leave a lasting impact.",
   },
   {
     name: "Responsive & Cross-Device Compatibility",
-    text: "Optimized for all screen sizes — mobile, tablet, and desktop."
+    text: "Optimized for all screen sizes — mobile, tablet, and desktop.",
   },
   {
     name: "Conversion-Driven Design & Functionality",
-    text: "Every element is crafted to increase user retention and turn visitors into customers."
+    text: "Every element is crafted to increase user retention and turn visitors into customers.",
   }
 ];
 

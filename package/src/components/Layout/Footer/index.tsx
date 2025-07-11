@@ -76,7 +76,7 @@ const Footer = () => {
               Top Technologies
             </h4>
             <ul>
-              {footerLinks.slice(8, 12).map((item, index) => (
+              {footerLinks.slice(9, 13).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
@@ -94,7 +94,7 @@ const Footer = () => {
               Our Services
             </h4>
             <ul>
-              {footerLinks.slice(5, 8).map((item, index) => (
+              {footerLinks.slice(5, 9).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
