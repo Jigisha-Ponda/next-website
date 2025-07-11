@@ -24,15 +24,15 @@ const Footer = () => {
             <div className="flex items-center text-foottext gap-2">
               <Icon icon="clarity:email-line" className="w-7 h-7" />
               <Link
-                href="mailto:emphasissoftinfo@gmail.com"
+                href="mailto:info@emphasissoft.com"
                 className="inline-flex items-center text-16 hover:text-primary"
               >
-                <span>emphasissoftinfo@gmail.com</span>
+                <span>info@emphasissoft.com"</span>
               </Link>
             </div>
           </div>
           <div className="flex gap-4 mt-4 lg:mt-0">
-            <Link href="mailto:emphasissoftinfo@gmail.com" className="text-muted hover:text-primary">
+            <Link href="mailto:info@emphasissoft.com" className="text-muted hover:text-primary">
               <Icon icon="ic:baseline-email" width="32" height="32" />
             </Link>
             <Link href="https://wa.me/918000027665" className="text-muted hover:text-primary">

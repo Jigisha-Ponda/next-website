@@ -17,11 +17,11 @@ const ContactInfo = () => {
                     Email US
                   </span>
                   <p className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    Feel free to contact us at emphasissoftinfo@gmail.com we’ll respond promptly
+                    Feel free to contact us at info@emphasissoft.com we’ll respond promptly
                   </p>
                 </div>
                 <div>
-                  <Link href="mailto:emphasissoftinfo@gmail.com" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
+                  <Link href="mailto:info@emphasissoft.com" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
                     Leave a message
                     <svg
                       width="23"

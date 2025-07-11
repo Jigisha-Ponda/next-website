@@ -7,18 +7,20 @@ export async function POST(req: NextRequest) {
   const body = await req.json();
 
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.zoho.in',
+    port: 465,
+    secure: true, 
     auth: {
-      user: process.env.MAIL_USER,
+      user: process.env.MAIL_USER, 
       pass: process.env.MAIL_PASS,
     },
   });
 
   try {
     await transporter.sendMail({
-      from: `"Website Inquiry" <${process.env.MAIL_USER}>`,
-      to: 'emphasissoftinfo@gmail.com',
-      subject: 'New Contact Form Submission',
+      from: `"Project Inquiry" <${process.env.MAIL_USER}>`,
+      to: 'info@emphasissoft.com',
+      subject: 'New Work Request Received',
       html: `
         <h3>Contact Details</h3>
         <p><strong>Name:</strong> ${body.firstName} ${body.lastName}</p>
@@ -33,7 +35,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error(error);
+    console.error('Error sending email:', error);
     return NextResponse.json({ success: false }, { status: 500 });
   }
 }
