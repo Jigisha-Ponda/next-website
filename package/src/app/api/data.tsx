@@ -120,11 +120,11 @@ export const footerLinks: { url: string, link: string }[] = [
   },
   {
     url: "/",
-    link: "Website Development",
+    link: "Website Design"
   },
   {
     url: "/",
-    link: "Website Design"
+    link: "Website Development",
   },
   {
     url: "/",
