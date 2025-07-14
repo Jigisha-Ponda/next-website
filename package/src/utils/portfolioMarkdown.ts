@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
-import { Portfolio } from "@/types/blog"; // Adjust the path as needed
+import { Portfolio } from "@/types/blog";
 
 const portfoliosDirectory = join(process.cwd(), "markdown/portfolios");
 

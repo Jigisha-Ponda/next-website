@@ -30,7 +30,7 @@ export const ourExpertise = [
   },
   {
     image: "/images/payment/user.svg",
-    title: "Creative Graphic Design",
+    title: "Creative UI/UX & Graphic Design",
     details:
       "We craft stunning visuals, branding assets, and marketing materials that elevate your brand and captivate your audience.",
   },
