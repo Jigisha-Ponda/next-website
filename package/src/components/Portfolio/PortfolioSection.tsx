@@ -83,7 +83,7 @@ const PortfolioSection = ({ portfolios }: Props) => {
             <section className="dark:bg-darkmode overflow-hidden py-14">
                 <div
                     ref={ref}
-                    className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4 "
+                    className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4"
                 >
                     <motion.div {...TopAnimation}>
                         <h2 className="dark:text-white text-midnight_text text-center md:text-35 sm:text-28 text-24">
@@ -98,7 +98,7 @@ const PortfolioSection = ({ portfolios }: Props) => {
                     </motion.div>
                     <motion.div {...bottomAnimation}>
                         <div className="text-center pb-6">
-                            <div className="inline-flex items-center bg-heroBg dark:bg-midnight_text dark:bg-semidark rounded-xl p-2">
+                            <div className="lg:inline-flex items-center bg-heroBg dark:bg-midnight_text dark:bg-semidark rounded-xl p-2">
                                 <button
                                     className={`text-17 font-normal text-midnight_text dark:text-white py-3 px-7 rounded-xl ${tabConfig.planType === "Web Design & Development"
                                         ? "bg-white text-darkmode dark:bg-darkmode"

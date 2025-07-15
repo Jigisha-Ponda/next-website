@@ -192,7 +192,7 @@ export default async function Post({ params }: any) {
                             twitter
                           </Link>
                           <Link
-                            href="#"
+                            href="https://www.linkedin.com/in/emphasis-soft-426a94373/"
                             className="bg-[#3C86AD] py-4 px-6 flex items-center text-20 rounded-lg text-white"
                           >
                             <svg

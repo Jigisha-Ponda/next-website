@@ -44,8 +44,11 @@ const Footer = () => {
             {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:square-twitter" width="32" height="32" />
             </Link> */}
-            <Link href="#" className="text-muted hover:text-primary">
+            <Link href="https://www.linkedin.com/in/emphasis-soft-426a94373/" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:linkedin" width="32" height="32" />
+            </Link>
+            <Link href="https://www.instagram.com/emphasis_soft/" className="text-muted hover:text-primary">
+              <Icon icon="fa6-brands:instagram" width="32" height="32" />
             </Link>
           </div>
         </div>

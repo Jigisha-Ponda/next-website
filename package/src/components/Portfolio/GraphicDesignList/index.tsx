@@ -1,15 +1,3 @@
-// import React from "react";
-
-// const GraphicDesignList = () => {
-//   return (
-//     <div className="text-center text-muted text-lg">
-//       Graphic Design projects will be shown here.
-//     </div>
-//   )
-// }
-
-// export default GraphicDesignList;
-
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -125,7 +113,7 @@ const graphicProjects = [
 
 const GraphicDesignList = () => {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto">
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
         {graphicProjects.map((project) => (
           <div
