@@ -38,9 +38,9 @@ const Footer = () => {
             <Link href="https://wa.me/918000027665" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:whatsapp" width="32" height="32" />
             </Link>
-            <Link href="#" className="text-muted hover:text-primary">
+            {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fe:facebook" width="32" height="32" />
-            </Link>
+            </Link> */}
             {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:square-twitter" width="32" height="32" />
             </Link> */}
