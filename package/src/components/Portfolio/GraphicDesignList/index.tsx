@@ -6,11 +6,13 @@ const graphicProjects = [
   {
     id: 1,
     image: "/images/image/graphic-1.svg",
+    name:"Food App",
     alt: "Food App UI Design",
   },
   {
     id: 2,
     image: "/images/image/graphic-2.svg",
+    name:"Food App",
     alt: "Calendar UI Design",
   },
   {

@@ -7,47 +7,26 @@ import Link from "next/link";
 const PortfolioCard = ({ portfolio }: { portfolio: Portfolio }) => {
     const { title, coverImage, type, excerpt, date, slug } = portfolio;
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 items-center group">
-            <div className="relative">
-                <div className="overflow-hidden rounded-lg">
-                    <Link
-                        href={`/portfolio/${slug}`}
-                        aria-label="blog cover"
-                        className="block"
-                    >
-                        <div className="shrink-0 rounded-lg shadow-lg">
-                            <div className="overflow-hidden rounded-lg shrink-0">
-                                <Image
-                                    src={coverImage!}
-                                    alt="image"
-                                    width={800}
-                                    height={500} 
-                                    className="w-full h-[200px] object-cover transition group-hover:scale-110 rounded-lg"
-                                />
-                            </div>
-                        </div>
-                    </Link>
-                </div>
-            </div>
-            <div>
-                <p className="text-14 sm:text-16 md:text-18 font-medium text-muted leading-loose mb-0">
-                    {format(new Date(date), "MMMM dd, yyyy")}
-                </p>
-                <div className="my-4">
-                    <Link
-                        href={`/portfolio/${slug}`}
-                        className="text-20 sm:text-22 md:text-24 font-medium text-midnight_text dark:text-white group-hover:text-primary"
-                    >
-                        {title}
-                    </Link>
-                </div>
-                <div>
-                    <Link
-                        href={`/portfolio/${slug}`}
-                        className="text-20 text-primary hover:text-blue-700"
-                    >
-                        Read More
-                    </Link>
+        <div className="relative w-full overflow-hidden rounded-xl shadow-md group">
+            <div className="relative aspect-[4/3] w-full">
+                <Image
+                    src={portfolio.coverImage}
+                    alt={portfolio.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-110 rounded-xl"
+                />
+
+                {/* Hover Overlay */}
+                <div className="absolute bottom-0 left-0 right-0 w-full h-full flex items-end justify-center">
+                    <div className="w-full bg-black/60 text-white px-4 py-4 text-center transform translate-y-[200px] group-hover:translate-y-0 transition duration-500 ease-out rounded-t-xl">
+                        <h3 className="text-lg font-semibold">{portfolio.title}</h3>
+                        <Link
+                            href={`/portfolio/${portfolio.slug}`}
+                            className="mt-2 inline-block bg-white text-black text-sm font-medium px-4 py-1 rounded hover:bg-gray-100 transition"
+                        >
+                            Read More
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

@@ -369,7 +369,7 @@ const PortfolioSection = ({ portfolios }: Props) => {
                         <div className="mt-12">
                             {tabConfig.planType === "Web Design & Development" ? (
                                 <>
-                                    <div className="grid md:grid-cols-2 gap-12">
+                                    <div className="grid md:grid-cols-3 gap-6">
                                         {portfolios.map((portfolio, i) => (
                                             <PortfolioCard key={i} portfolio={portfolio} />
                                         ))}
