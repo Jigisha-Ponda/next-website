@@ -27,6 +27,7 @@ const Expertise = () => {
     "JQuery",
     "Angular",
     "Angular Material",
+    "Bootstrap",
     "Tailwind CSS",
     "React.js",
     "Next.js",
