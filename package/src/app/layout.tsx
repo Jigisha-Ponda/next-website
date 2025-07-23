@@ -6,6 +6,8 @@ import { ThemeProvider } from "next-themes";
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
 import ScrollToTop from "@/components/ScrollToTop";
+import TawkToScript from "@/components/TawkToScript";
+
 const dmsans = DM_Sans({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -32,6 +34,9 @@ export default function RootLayout({
             </ThemeProvider>
           </SessionProviderComp>
         </AuthDialogProvider>
+
+        {/* Tawk.to Live Chat Script */}
+        <TawkToScript />
       </body>
     </html>
   );
