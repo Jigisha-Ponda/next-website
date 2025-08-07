@@ -20,21 +20,21 @@ const graphicProjects = [
     image: "/images/image/graphic-3.svg",
     alt: "Traders App UI Design",
   },
-  {
-    id: 4,
-    image: "/images/image/graphic-4.svg",
-    alt: "Vyavr App",
-  },
+  // {
+  //   id: 4,
+  //   image: "/images/image/graphic-4.svg",
+  //   alt: "Vyavr App",
+  // },
   {
     id: 5,
     image: "/images/image/graphic-5.svg",
     alt: "E-commerce UI Design",
   },
-  {
-    id: 6,
-    image: "/images/image/graphic-6.svg",
-    alt: "Finance Dashboard UI",
-  },
+  // {
+  //   id: 6,
+  //   image: "/images/image/graphic-6.svg",
+  //   alt: "Finance Dashboard UI",
+  // },
   {
     id: 7,
     image: "/images/image/graphic-7.svg",
