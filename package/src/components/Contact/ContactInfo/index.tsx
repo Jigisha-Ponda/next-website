@@ -6,12 +6,12 @@ const ContactInfo = () => {
     <>
       <section className="dark:bg-darkmode pt-8">
         <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-4">
-          <div className="flex md:flex-row flex-col sm:items-center justify-center md:gap-28 gap-8">
+          <div className="flex md:flex-row flex-col justify-center md:gap-28 gap-8">
             <div className="flex sm:flex-row flex-col items-start sm:gap-8 gap-4">
               <div className="bg-heroBg dark:bg-search p-4 flex items-center justify-center rounded-full">
                 <i className="bg-[url('/images/contact-page/email.svg')] bg-no-repeat bg-contain w-9 h-9 inline-block"></i>
               </div>
-              <div className="flex md:flex-col sm:flex-row flex-col md:items-start sm:items-center items-start h-full justify-between">
+              <div className="flex md:flex-col sm:flex-row flex-col md:items-start sm:items-center items-start h-full">
                 <div>
                   <span className="text-midnight_text dark:text-white text-xl font-bold">
                     Email US
@@ -48,9 +48,17 @@ const ContactInfo = () => {
                   <span className="text-midnight_text dark:text-white text-xl font-bold">
                     Address
                   </span>
-                  <p className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    401, Pride Classic, Patidar Chowk, Rajkot, Gujarat
-                  </p>
+                  <div className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
+                    <p><b>India</b></p>
+                    <p>401, Pride Classic, Patidar Chowk, Rajkot, Gujarat
+                    </p>
+                    <br />
+                    <p><b>Canada</b></p>
+                    <p className="mt-2">
+                      1720 baseline road, Ottawa
+                      Ontario, Canada K2C 0B9
+                    </p>
+                  </div>
                 </div>
                 {/* <div>
                   <Link href="#" className="text-primary text-18 font-medium flex items-center gap-3 group hover:text-midnight_text dark:hover:text-white">
@@ -72,7 +80,7 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-lg md:mt-32 mt-11 md:mb-28 mb-8">
+          {/* <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-lg md:mt-32 mt-11 md:mb-28 mb-8">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3691.5709451465827!2d70.753658!3d22.294237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDE3JzM5LjMiTiA3MMKwNDUnMTMuMiJF!5e0!3m2!1sen!2sin!4v1751973552352!5m2!1sen!2sin"
               className="absolute top-0 left-0 w-full h-full border-0"
@@ -80,9 +88,9 @@ const ContactInfo = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
+          </div> */}
         </div>
-        <div className="border-b border-solid border-border dark:border-dark_border"></div>
+        {/* <div className="border-b border-solid border-border dark:border-dark_border"></div> */}
       </section>
     </>
   );

@@ -6,31 +6,11 @@ const Footer = () => {
   return (
     <footer className="pt-8 mt-14 bg-midnight_text relative after:content-[''] after:absolute after:bg-[url('/images/footer/bgline.png')] after:bg-no-repeat after:w-52 after:h-24 after:right-0 after:top-28 xl:after:block after:hidden">
       <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) px-2">
-        <div className="flex lg:items-center justify-between lg:flex-row flex-col border-b border-dark_border pb-14 mb-16 ">
-          <div className="flex sm:flex-nowrap flex-wrap gap-6">
-            <div className="flex items-center text-foottext text-16">
-              <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
-              <div className="flex flex-col">
-                <span>401, Pride Classic, Patidar Chowk,</span>
-                <span className="mt-1"> Rajkot, Gujarat</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-2 text-foottext">
-              <Icon icon="ic:baseline-call" className="w-7 h-7" />
-              <Link href="tel:+918000027665" className="text-16 hover:text-primary">
-                <span>+91 80000 27665</span>
-              </Link>
-            </div>
-            <div className="flex items-center text-foottext gap-2">
-              <Icon icon="clarity:email-line" className="w-7 h-7" />
-              <Link
-                href="mailto:info@emphasissoft.com"
-                className="inline-flex items-center text-16 hover:text-primary"
-              >
-                <span>info@emphasissoft.com</span>
-              </Link>
-            </div>
+        <div className="flex lg:items-start justify-between lg:flex-row flex-col border-b border-dark_border pb-14 mb-16">
+          <div className="w-50">
+            <h6 className="text-foottext pe-5">EmphasisSoft is a modern web development company helping startups and businesses build fast, scalable, and user-friendly digital experiences. From idea to launch, we craft web solutions that drive results.</h6>
           </div>
+
           <div className="flex gap-4 mt-4 lg:mt-0">
             <Link href="mailto:info@emphasissoft.com" className="text-muted hover:text-primary">
               <Icon icon="ic:baseline-email" width="32" height="32" />
@@ -44,7 +24,7 @@ const Footer = () => {
             {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:square-twitter" width="32" height="32" />
             </Link> */}
-            <Link href="https://www.linkedin.com/company/107960748/admin/page-posts/published/" className="text-muted hover:text-primary">
+            <Link href="https://www.linkedin.com/in/emphasis-soft/" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:linkedin" width="32" height="32" />
             </Link>
             <Link href="https://www.instagram.com/emphasis_soft/" className="text-muted hover:text-primary">
@@ -53,8 +33,73 @@ const Footer = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 sm:mb-16 mb-8 pt-8 gap-4 relative before:content-[''] before:absolute before:w-20 before:h-20 before:bg-[url('/images/footer/bgcir.png')] before:bg-no-repeat before:-left-36 before:bottom-9 lg:before:block before:hidden">
-          <div className="md:col-span-5 col-span-12">
+          {/* <div className="md:col-span-3 col-span-12">
             <h6 className="text-foottext pe-5">EmphasisSoft is a modern web development company helping startups and businesses build fast, scalable, and user-friendly digital experiences. From idea to launch, we craft web solutions that drive results.</h6>
+          </div> */}
+          <div className="md:col-span-3 col-span-12">
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col sm:flex-nowrap flex-wrap gap-6 me-5">
+                <div>
+                  <h4 className="text-18 text-white dark:text-white">
+                    India
+                  </h4>
+                </div>
+                <div className="flex items-center text-foottext text-16 w-72">
+                  <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
+                  <div className="flex flex-col">
+                    <span>401, Pride Classic, Patidar Chowk,</span>
+                    <span className="mt-1"> Rajkot, Gujarat</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 text-foottext w-56">
+                  <Icon icon="ic:baseline-call" className="w-7 h-7" />
+                  <Link href="tel:+918000027665" className="text-16 hover:text-primary">
+                    <span>+91 80000 27665</span>
+                  </Link>
+                </div>
+                <div className="flex items-center text-foottext gap-2 w-72">
+                  <Icon icon="clarity:email-line" className="w-7 h-7" />
+                  <Link
+                    href="mailto:info@emphasissoft.com"
+                    className="inline-flex items-center text-16 hover:text-primary"
+                  >
+                    <span>info@emphasissoft.com</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:col-span-3 col-span-12">
+            <div className="flex flex-col sm:flex-nowrap flex-wrap gap-6">
+              <div>
+                <h4 className="text-18 text-white dark:text-white">
+                  Canada
+                </h4>
+              </div>
+              <div className="flex items-center text-foottext text-16 w-72">
+                <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
+                <div className="flex flex-col">
+                  <span>1720 baseline road, Ottawa</span>
+                  <span className="mt-1"> Ontario, Canada
+                    K2C 0B9</span>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 text-foottext w-56">
+                <Icon icon="ic:baseline-call" className="w-7 h-7" />
+                <Link href="tel:+918000027665" className="text-16 hover:text-primary">
+                  <span>+1 (753) 881-3678</span>
+                </Link>
+              </div>
+              <div className="flex items-center text-foottext gap-2 w-72">
+                <Icon icon="clarity:email-line" className="w-7 h-7" />
+                <Link
+                  href="mailto:info@emphasissoft.com"
+                  className="inline-flex items-center text-16 hover:text-primary"
+                >
+                  <span>info@emphasissoft.com</span>
+                </Link>
+              </div>
+            </div>
           </div>
           <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
@@ -73,7 +118,6 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
           <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
               Top Technologies
@@ -91,8 +135,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          <div className="md:col-span-3 col-span-6 mb-4 md:mb-0">
+          <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
               Our Services
             </h4>
