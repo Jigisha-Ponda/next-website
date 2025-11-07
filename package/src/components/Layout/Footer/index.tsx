@@ -36,7 +36,7 @@ const Footer = () => {
           {/* <div className="md:col-span-3 col-span-12">
             <h6 className="text-foottext pe-5">EmphasisSoft is a modern web development company helping startups and businesses build fast, scalable, and user-friendly digital experiences. From idea to launch, we craft web solutions that drive results.</h6>
           </div> */}
-          <div className="md:col-span-3 col-span-12">
+          <div className="lg:col-span-3 md:col-span-6 col-span-12">
             <div className="flex flex-col gap-6">
               <div className="flex flex-col sm:flex-nowrap flex-wrap gap-6 me-5">
                 <div>
@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:col-span-3 col-span-12">
+          <div className="lg:col-span-3 md:col-span-6 col-span-12">
             <div className="flex flex-col sm:flex-nowrap flex-wrap gap-6">
               <div>
                 <h4 className="text-18 text-white dark:text-white">
@@ -101,7 +101,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
+          <div className="lg:col-span-2 md:col-span-4 col-span-6 mb-4 mt-5 lg:mt-0 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
               Quick Links
             </h4>
@@ -118,7 +118,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
+          <div className="lg:col-span-2 md:col-span-4 col-span-6 mb-4 mt-5 lg:mt-0 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
               Top Technologies
             </h4>
@@ -135,7 +135,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="md:col-span-2 col-span-6 mb-4 md:mb-0">
+          <div className="lg:col-span-2 md:col-span-4 col-span-6 mb-4 md:mt-5 lg:mt-0 md:mb-0">
             <h4 className="text-18 text-white dark:text-white mb-3">
               Our Services
             </h4>
