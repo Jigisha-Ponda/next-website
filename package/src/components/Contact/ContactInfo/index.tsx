@@ -49,7 +49,7 @@ const ContactInfo = () => {
                     Address
                   </span>
                   <div className="text-DeepOcean font-normal text-xl max-w-80 pt-3 pb-7 dark:text-white dark:text-opacity-50">
-                    <p><b>India</b></p>
+                    {/* <p><b>India</b></p> */}
                     <p>401, Pride Classic, Patidar Chowk, Rajkot, Gujarat
                     </p>
                     <br />
