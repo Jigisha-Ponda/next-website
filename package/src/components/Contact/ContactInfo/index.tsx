@@ -53,11 +53,11 @@ const ContactInfo = () => {
                     <p>401, Pride Classic, Patidar Chowk, Rajkot, Gujarat
                     </p>
                     <br />
-                    <p><b>Canada</b></p>
+                    {/* <p><b>Canada</b></p>
                     <p className="mt-2">
                       1720 baseline road, Ottawa
                       Ontario, Canada K2C 0B9
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 {/* <div>
@@ -89,8 +89,19 @@ const ContactInfo = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div> */}
-        </div>
-        {/* <div className="border-b border-solid border-border dark:border-dark_border"></div> */}
+          {/* <div className="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-lg md:mt-32 mt-11 md:mb-28 mb-8 map">
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=19vlkpA_O_KHKoohxlLaiV4hpBojL3l0&ehbc=2E312F"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div> */}
+          </div>
+          {/* <div className="border-b border-solid border-border dark:border-dark_border"></div> */}
       </section>
     </>
   );
