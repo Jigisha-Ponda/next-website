@@ -99,7 +99,7 @@ const ContactForm = () => {
                     {/* <option value="E-commerce">E-commerce</option> */}
                     <option value="Odoo E-commerce">Odoo E-commerce</option>
                     <option value="Odoo POS">Odoo POS</option>
-                    <option value="Graphis">Graphic Design</option>
+                    <option value="Graphic">Graphic Design</option>
                   </select>
                 </div>
               </div>
