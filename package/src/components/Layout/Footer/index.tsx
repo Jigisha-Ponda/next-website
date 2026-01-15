@@ -12,10 +12,10 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-4 mt-4 lg:mt-0">
-            <Link href="mailto:info@emphasissoft.com" className="text-muted hover:text-primary">
+            <Link href="mailto:info@emphasissoft.com" target="_blank" className="text-muted hover:text-primary">
               <Icon icon="ic:baseline-email" width="32" height="32" />
             </Link>
-            <Link href="https://wa.me/917878757271" className="text-muted hover:text-primary">
+            <Link href="https://wa.me/917878757271" target="_blank" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:whatsapp" width="32" height="32" />
             </Link>
             {/* <Link href="#" className="text-muted hover:text-primary">
@@ -24,12 +24,12 @@ const Footer = () => {
             {/* <Link href="#" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:square-twitter" width="32" height="32" />
             </Link> */}
-            <Link href="https://www.linkedin.com/in/emphasis-soft/" className="text-muted hover:text-primary">
+            <Link href="https://www.linkedin.com/in/emphasis-software/" target="_blank" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:linkedin" width="32" height="32" />
             </Link>
-            <Link href="https://www.instagram.com/emphasis_soft/" className="text-muted hover:text-primary">
+            {/* <Link href="https://www.instagram.com/emphasis_soft/" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:instagram" width="32" height="32" />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="grid grid-cols-12 sm:mb-16 mb-8 pt-8 gap-4 relative before:content-[''] before:absolute before:w-20 before:h-20 before:bg-[url('/images/footer/bgcir.png')] before:bg-no-repeat before:-left-36 before:bottom-9 lg:before:block before:hidden">
