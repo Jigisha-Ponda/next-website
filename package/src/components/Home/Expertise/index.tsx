@@ -21,6 +21,13 @@ const Expertise = () => {
   });
 
   const languages = [
+    "E-commerce Development",
+    "Odoo POS Solutions",
+    "Website Development",
+    "Graphic Design",
+    "Logo Design",
+    "Social Media Graphics",
+    "UI/UX Mockups",
     "HTML",
     "CSS",
     "Javascript",
@@ -31,9 +38,8 @@ const Expertise = () => {
     "Tailwind CSS",
     "React.js",
     "Next.js",
-    "Logo Design",
-    "Social Media Graphics",
-    "UI/UX Mockups"
+    "Python",
+    "PHP"
   ];
 
   return (
@@ -64,7 +70,7 @@ const Expertise = () => {
           </div>
         </motion.div>
 
-        <div className="flex justify-start sm:mt-20 mt-10">
+        <div className="flex justify-center sm:mt-20 mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-14 gap-8">
             {ourExpertise.map((item, index) => (
               <div key={index}>
@@ -94,6 +100,7 @@ const Expertise = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

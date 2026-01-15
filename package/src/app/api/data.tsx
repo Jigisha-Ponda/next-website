@@ -24,6 +24,18 @@ export const Heroimage = [
 export const ourExpertise = [
   {
     image: "/images/payment/user.svg",
+    title: "Odoo E-commerce Solutions",
+    details:
+      "We build and customize Odoo-powered e-commerce websites with secure payments, product and inventory management, order automation, performance optimization, and seamless integration with Odoo backend modules.",
+  },
+  {
+    image: "/images/payment/user.svg",
+    title: "Odoo POS Solutions",
+    details:
+      "We customize and integrate Odoo POS systems, including inventory management, billing workflows, reporting, and seamless online-to-offline business operations.",
+  },
+  {
+    image: "/images/payment/user.svg",
     title: "Modern Web Development",
     details:
       "We build fast, SEO-optimized websites and eCommerce platforms using React, Next.js, and Angular.",
@@ -120,6 +132,14 @@ export const footerLinks: { url: string, link: string }[] = [
   },
   {
     url: "/",
+    link: "Odoo E-commerce Development"
+  },
+  {
+    url: "/",
+    link: "Odoo POS Development"
+  },
+  {
+    url: "/",
     link: "Website Design"
   },
   {
@@ -132,7 +152,11 @@ export const footerLinks: { url: string, link: string }[] = [
   },
   {
     url: "/",
-    link: "E-commerce Development"
+    link: "Python"
+  },
+  {
+    url: "/",
+    link: "PHP"
   },
   {
     url: "/",
@@ -147,16 +171,16 @@ export const footerLinks: { url: string, link: string }[] = [
     link: "Next.js",
   },
   {
-    url:"",
-    link:"Figma"
+    url: "",
+    link: "Figma"
   },
   {
-    url:"",
-    link:"Adobe Illustrator"
+    url: "",
+    link: "Adobe Illustrator"
   },
-  { 
-    url:"",
-    link:"Adobe Photoshop"
+  {
+    url: "",
+    link: "Adobe Photoshop"
   }
 ];
 

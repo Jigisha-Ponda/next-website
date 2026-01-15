@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { footerLinks } from "@/app/api/data";
+import Logo from "../Header/Logo";
 
 const Footer = () => {
   return (
@@ -40,9 +41,17 @@ const Footer = () => {
             <div className="flex flex-col gap-6">
               <div className="flex flex-col sm:flex-nowrap flex-wrap gap-6 me-5">
                 <div>
-                  <h4 className="text-18 text-white dark:text-white">
+                  {/* <h4 className="text-18 text-white dark:text-white">
                     India
-                  </h4>
+                  </h4> */}
+                  <img
+                    src="/images/image/dark-theme-logo.png"
+                    alt="logo"
+                    width={160}
+                    height={50}
+                    className="dark:hidden"
+                  />
+
                 </div>
                 <div className="flex items-center text-foottext text-16 w-72">
                   <Icon icon="weui:location-outlined" className="w-7 h-7 mr-3" />
@@ -123,7 +132,7 @@ const Footer = () => {
               Top Technologies
             </h4>
             <ul>
-              {footerLinks.slice(9, 15).map((item, index) => (
+              {footerLinks.slice(10, 18).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"
@@ -140,7 +149,7 @@ const Footer = () => {
               Our Services
             </h4>
             <ul>
-              {footerLinks.slice(5, 9).map((item, index) => (
+              {footerLinks.slice(5, 10).map((item, index) => (
                 <li key={index} className="pb-3">
                   <Link
                     href="#"

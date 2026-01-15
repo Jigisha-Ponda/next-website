@@ -95,8 +95,10 @@ const ContactForm = () => {
                     className="w-full text-17 px-4 py-2.5 rounded-lg border-border dark:text-white border-solid dark:bg-transparent border transition-all duration-500 focus:border-primary dark:focus:border-primary dark:border-dark_border focus:outline-0"
                   >
                     <option value="">Choose a project type</option>
-                    <option value="Website">Website</option>
-                    <option value="E-commerce">E-commerce</option>
+                    <option value="Website">Website Development</option>
+                    {/* <option value="E-commerce">E-commerce</option> */}
+                    <option value="Odoo E-commerce">Odoo E-commerce</option>
+                    <option value="Odoo POS">Odoo POS</option>
                     <option value="Graphis">Graphic Design</option>
                   </select>
                 </div>
