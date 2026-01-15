@@ -20,6 +20,7 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: `"Project Inquiry" <${process.env.MAIL_USER}>`,
       to: 'info@emphasissoft.com',
+      replyTo: body.email, 
       subject: 'New Work Request Received',
       html: `
         <h3>Contact Details</h3>
