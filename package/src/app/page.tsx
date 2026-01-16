@@ -5,6 +5,7 @@ import Spend from "@/components/Home/Spend";
 import Method from "@/components/Home/Method";
 import WebSolutions from "@/components/Home/WebSolutions";
 import Expertise from "@/components/Home/Expertise";
+import Mobile from "@/components/AboutUs/WhatWeDo";
 
 export const metadata: Metadata = {
   title: "Emphasis Soft",

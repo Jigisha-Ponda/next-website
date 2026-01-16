@@ -228,6 +228,31 @@ export const whatWeDo = [
   }
 ];
 
+
+// What we do
+export const ourServices = [
+  {
+    name: "Odoo E-commerce Development",
+    text: "Scalable Odoo eCommerce solutions with secure payments and inventory management.",
+  },
+  {
+    name: "Odoo POS Development",
+    text: "Customized Odoo POS systems for smooth billing and real-time business operations.",
+  },
+  {
+    name: "Website Design & Development",
+    text: "Strategies to ensure a comfortable and financially secure retirement.",
+  },
+  {
+    name: "UI/UX & Figma Design",
+    text: "User-focused UI/UX design with high-quality Figma prototypes.",
+  },
+  {
+    name: "Graphic & Logo Design",
+    text: "Creative branding, logos, and marketing visuals.",
+  }
+];
+
 // review
 export const review = [
   {
