@@ -22,18 +22,18 @@ export const Heroimage = [
 
 // Our Expertise
 export const ourExpertise = [
-  {
-    image: "/images/payment/user.svg",
-    title: "Odoo E-commerce Solutions",
-    details:
-      "We build and customize Odoo-powered e-commerce websites with secure payments, product and inventory management, order automation, performance optimization, and seamless integration with Odoo backend modules.",
-  },
-  {
-    image: "/images/payment/user.svg",
-    title: "Odoo POS Solutions",
-    details:
-      "We customize and integrate Odoo POS systems, including inventory management, billing workflows, reporting, and seamless online-to-offline business operations.",
-  },
+  // {
+  //   image: "/images/payment/user.svg",
+  //   title: "Odoo E-commerce Solutions",
+  //   details:
+  //     "We build and customize Odoo-powered e-commerce websites with secure payments, product and inventory management, order automation, performance optimization, and seamless integration with Odoo backend modules.",
+  // },
+  // {
+  //   image: "/images/payment/user.svg",
+  //   title: "Odoo POS Solutions",
+  //   details:
+  //     "We customize and integrate Odoo POS systems, including inventory management, billing workflows, reporting, and seamless online-to-offline business operations.",
+  // },
   {
     image: "/images/payment/user.svg",
     title: "Modern Web Development",
@@ -130,14 +130,14 @@ export const footerLinks: { url: string, link: string }[] = [
     url: "/contact",
     link: "Contact Us"
   },
-  {
-    url: "/",
-    link: "Odoo E-commerce Development"
-  },
-  {
-    url: "/",
-    link: "Odoo POS Development"
-  },
+  // {
+  //   url: "/",
+  //   link: "Odoo E-commerce Development"
+  // },
+  // {
+  //   url: "/",
+  //   link: "Odoo POS Development"
+  // },
   {
     url: "/",
     link: "Website Design"
@@ -231,14 +231,14 @@ export const whatWeDo = [
 
 // What we do
 export const ourServices = [
-  {
-    name: "Odoo E-commerce Development",
-    text: "Scalable Odoo eCommerce solutions with secure payments and inventory management.",
-  },
-  {
-    name: "Odoo POS Development",
-    text: "Customized Odoo POS systems for smooth billing and real-time business operations.",
-  },
+  // {
+  //   name: "Odoo E-commerce Development",
+  //   text: "Scalable Odoo eCommerce solutions with secure payments and inventory management.",
+  // },
+  // {
+  //   name: "Odoo POS Development",
+  //   text: "Customized Odoo POS systems for smooth billing and real-time business operations.",
+  // },
   {
     name: "Website Design & Development",
     text: "Strategies to ensure a comfortable and financially secure retirement.",

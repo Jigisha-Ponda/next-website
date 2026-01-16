@@ -29,13 +29,16 @@ const Hero = () => {
               Graphic Design,
               <br />
               <span className="bg-border dark:bg-darkHeroBg  md:text-50 text-36 rounded-lg lg:text-start text-primary max-w-max">
-                Custom Websites & Odoo Solutions
+                Custom Websites 
+                {/* & Odoo Solutions */}
               </span>
               <br />
               That Power Your Business
             </h1>
             <p className="sm:text-19 text-16 text-muted dark:text-white dark:text-opacity-70 text-start lg:max-w-full sm:max-w-75%">
-              We create impactful graphic designs, custom websites, Odoo eCommerce platforms, and Odoo POS solutions—focused on great user experience, seamless operations, and business growth.
+              We create impactful graphic designs, custom websites,  
+              {/* Odoo eCommerce platforms, and Odoo POS solutions—focused */}
+               on great user experience, seamless operations, and business growth.
             </p>
             <div className="flex items-center mt-12 gap-11">
               <div>

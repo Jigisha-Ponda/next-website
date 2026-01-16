@@ -97,8 +97,8 @@ const ContactForm = () => {
                     <option value="">Choose a project type</option>
                     <option value="Website">Website Development</option>
                     {/* <option value="E-commerce">E-commerce</option> */}
-                    <option value="Odoo E-commerce">Odoo E-commerce</option>
-                    <option value="Odoo POS">Odoo POS</option>
+                    {/* <option value="Odoo E-commerce">Odoo E-commerce</option> */}
+                    {/* <option value="Odoo POS">Odoo POS</option> */}
                     <option value="Graphic">Graphic Design</option>
                   </select>
                 </div>

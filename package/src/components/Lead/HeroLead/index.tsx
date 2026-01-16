@@ -35,7 +35,9 @@ const HeroLead = () => {
               for Growing Businesses
             </h1>
             <p className="sm:text-19 text-16 text-muted dark:text-white dark:text-opacity-70 text-start lg:max-w-full sm:max-w-75%">
-              We specialize in modern web development, creative UI/UX design, and scalable Odoo eCommerce & POS solutions tailored to your business needs.
+              We specialize in modern web development, creative UI/UX design, and scalable 
+              {/* Odoo eCommerce & POS  */}
+              solutions tailored to your business needs.
             </p>
             <div className="flex items-center mt-12 gap-11">
               <div>

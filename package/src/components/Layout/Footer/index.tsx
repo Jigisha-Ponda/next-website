@@ -16,7 +16,7 @@ const Footer = () => {
             <Link href="mailto:info@emphasissoft.com" target="_blank" className="text-muted hover:text-primary">
               <Icon icon="ic:baseline-email" width="32" height="32" />
             </Link>
-            <Link href="https://wa.me/917878757271" target="_blank" className="text-muted hover:text-primary">
+            <Link href="https://wa.me/918000027665" target="_blank" className="text-muted hover:text-primary">
               <Icon icon="fa6-brands:whatsapp" width="32" height="32" />
             </Link>
             {/* <Link href="#" className="text-muted hover:text-primary">
@@ -62,8 +62,8 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2 text-foottext w-56">
                   <Icon icon="ic:baseline-call" className="w-7 h-7" />
-                  <Link href="tel:+917878757271" className="text-16 hover:text-primary">
-                    <span>+91 78787 57271</span>
+                  <Link href="tel:+918000027665" className="text-16 hover:text-primary">
+                    <span>+91 80000 27665</span>
                   </Link>
                 </div>
                 <div className="flex items-center text-foottext gap-2 w-72">

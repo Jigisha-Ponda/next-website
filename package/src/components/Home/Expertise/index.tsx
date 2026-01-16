@@ -21,8 +21,8 @@ const Expertise = () => {
   });
 
   const languages = [
-    "E-commerce Development",
-    "Odoo POS Solutions",
+    // "Odoo E-commerce Development",
+    // "Odoo POS Solutions",
     "Website Development",
     "Graphic Design",
     "Logo Design",
